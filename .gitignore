@@ -1,0 +1,9 @@
+data/*
+!data/README.md
+output/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db

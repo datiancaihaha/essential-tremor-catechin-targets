@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript."
+title: "Code for Gut Microbial Genetics Prioritize Catechin-Related Cerebellar Targets in Essential Tremor"
+type: software
+version: 1.0.0
+date-released: 2026-08-25
+authors:
+  - family-names: Wen
+    given-names: Heli
+  - family-names: Lin
+    given-names: Weiqian
+  - family-names: Chen
+    given-names: Feichi
+    orcid: "https://orcid.org/0009-0006-2253-6035"
+repository-code: "https://github.com/datiancaihaha/essential-tremor-catechin-targets"
