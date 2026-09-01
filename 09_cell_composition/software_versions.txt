@@ -1,0 +1,1 @@
+R 4.4.1; edgeR 4.2.2; limma 3.60.6; propeller as invoked by the archived scripts; Python scCODA environment recorded in the software audit. See session_info.

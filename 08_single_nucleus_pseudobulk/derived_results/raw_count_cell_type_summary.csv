@@ -1,0 +1,15 @@
+"cell_type","pseudobulk_samples","donors","et_donors","normal_donors","genes_after_filterByExpr","evaluable_target_gene_tests","nominal_p_lt_0_05_candidates","all_16_iterations_same_direction","all_16_iterations_nominal_p_lt_0_05","supplementary_target_set_BH_lt_0_05"
+"Astrocytes",134,108,16,92,10042,76,12,12,5,1
+"Bergmann",136,108,16,92,14151,102,38,38,26,13
+"Endocytes",121,107,16,91,7808,69,7,7,2,1
+"Golgi",119,106,16,90,7461,60,9,9,4,1
+"Granule",139,109,16,93,18756,126,25,25,16,8
+"MLI_1",133,108,16,92,11115,85,12,12,3,1
+"MLI_2",111,106,16,90,8430,65,4,4,2,1
+"Microglia",127,108,16,92,8938,72,9,9,5,1
+"OPC",130,108,16,92,10598,80,11,11,6,4
+"Oligodendrocytes",133,108,16,92,10987,83,13,13,7,1
+"PLI",127,107,16,91,5621,52,7,7,4,1
+"Pericytes",106,102,16,86,2484,27,3,3,2,1
+"Purkinje",121,108,16,92,7877,66,7,7,4,1
+"UBC",116,107,16,91,5431,50,6,6,3,1

@@ -1,0 +1,1 @@
+Not applicable. DESeq2, rlog transformation, PCA, and the reported rotation-test workflow are deterministic for fixed inputs and design matrices.

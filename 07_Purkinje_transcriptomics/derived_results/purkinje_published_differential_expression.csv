@@ -1,0 +1,37 @@
+﻿gene_symbol,gene_name,published_baseMean,published_log2FoldChange,published_pvalue,published_bh_adjusted_p
+CDH11,Cadherin 11,1390.78,-0.6517,2.87e-07,0.0035
+CSPP1,Centrosome and spindle pole associated protein 1,627.11,0.4597,6.53e-07,0.0035
+SH3D21,SH3 domain containing 21,362.04,0.9959,8.18e-07,0.0035
+AC013394.1,Uncharacterized protein,200.0,0.7901,1.39e-06,0.0036
+AP4E1,Adaptor related protein complex 4 subunit epsilon 1,231.68,0.515,1.23e-06,0.0036
+AC124312.1,Uncharacterized protein,967.08,0.5981,4.56e-06,0.0098
+ACTR8,Actin related protein 8,309.66,-0.407,6.29e-06,0.0115
+CCAR1,Cell division cycle and apoptosis regulator 1,2024.73,0.2829,9.03e-06,0.0129
+LAMP5,Lysosomal associated membrane protein family member 5,173.31,-0.7331,8.18e-06,0.0129
+JAKMIP3,Janus kinase and microtubule interacting protein 3,604.99,0.7537,1.39e-05,0.0179
+COL4A3,Collagen type IV alpha 3 chain,108.65,1.0395,1.82e-05,0.0213
+PNISR,PNN interacting serine and arginine rich protein,3828.2,0.5137,2.08e-05,0.0223
+HMGN5,High mobility group nucleosome binding domain 5,443.25,0.4478,2.5e-05,0.023
+SPTBN5,"Spectrin beta, non-erythrocytic 5",304.73,1.5415,2.41e-05,0.023
+B4GALNT3,"Beta-1,4-N-acetyl-galactosaminyltransferase 3",53.21,1.0821,3.34e-05,0.0235
+CCDC82,Coiled-coil domain containing 82,1468.93,0.2685,4.41e-05,0.0235
+CLASRP,CLK4 associating serine/arginine rich protein,280.3,0.687,3.65e-05,0.0235
+DPY19L2,Dpy-19 like 2,154.48,0.5614,4.52e-05,0.0235
+GSS,Glutathione synthetase,445.55,-0.3089,3.98e-05,0.0235
+MAGI1,"Membrane associated guanylate kinase, WW and PDZ domain containing 1",881.8,0.5242,4.22e-05,0.0235
+PNN,"Pinin, desmosome associated protein",2443.14,0.358,3.73e-05,0.0235
+PRPF38B,Pre-MRNA processing factor 38B,1173.42,0.4907,4.57e-05,0.0235
+RBM25,RNA binding motif protein 25,2980.67,0.3179,3.46e-05,0.0235
+SREK1,Splicing regulatory glutamic acid and lysine rich protein 1,1960.29,0.3859,3.35e-05,0.0235
+SRSF11,Serine and arginine rich splicing factor 11,2106.86,0.3482,3.44e-05,0.0235
+CHTF18,Chromosome transmission fidelity factor 18,97.29,0.7946,5.07e-05,0.0241
+RCE1,Ras converting CAAX endopeptidase 1,51.41,0.7313,4.96e-05,0.0241
+GNB3,G grotein subunit beta 3,32.03,1.3142,8.67e-05,0.0398
+EEF1B2,Eukaryotic translation elongation factor 1 beta 2,566.3,-0.612,9.46e-05,0.0408
+PCNT,Pericentrin,1644.45,0.6301,9.53e-05,0.0408
+DMAC1,Distal membrane arm assembly component 1,290.21,-0.3866,0.000103,0.0413
+ZC3H4,Zinc finger CCCH-type containing 4,853.36,0.3676,9.99e-05,0.0413
+COL4A4,Collagen type IV alpha 4 chain,171.59,0.757,0.000115,0.0436
+TTC14,Tetratricopeptide repeat domain 14,971.62,0.404,0.000115,0.0436
+COL4A1,Collagen type IV alpha 1 chain,4031.9,1.1651,0.000128,0.0469
+FUT9,Fucosyltransferase 9,7577.28,0.3412,0.000138,0.0492

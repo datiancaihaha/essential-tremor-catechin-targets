@@ -1,0 +1,1 @@
+Captured R environments include R 4.6.1 for the main raw-count workflow and R 4.4.1 with edgeR 4.2.2 and limma 3.60.6 for threshold sensitivity. See session_info.

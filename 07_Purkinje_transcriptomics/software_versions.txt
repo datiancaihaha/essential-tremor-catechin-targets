@@ -1,0 +1,1 @@
+R 4.4.1; edgeR 4.2.2; limma 3.60.6; DESeq2 as invoked by the archived script. See session_info.

@@ -1,0 +1,7 @@
+﻿dataset,gene_set,method,set_statistic,rotations,NGenes,Direction,PValue,FDR,PValue.Mixed,FDR.Mixed
+Whole cerebellum (GSE134878),SwissTargetPrediction targets,fry,default analytic rotation approximation,,62,Down,0.906308075454464,0.906308075454464,0.14844467295045,0.243269790562535
+Whole cerebellum (GSE134878),Combined predicted targets,fry,default analytic rotation approximation,,64,Down,0.838325788527129,0.906308075454464,0.162179860375024,0.243269790562535
+Whole cerebellum (GSE134878),Similarity Ensemble Approach targets,fry,default analytic rotation approximation,,2,Down,0.382010267562518,0.906308075454464,1.0,1.0
+Purkinje cells (GSE197345),Combined predicted targets,fry,default analytic rotation approximation,,62,Up,0.256961842629732,0.385442763944598,0.0415732952163109,0.0679102703215966
+Purkinje cells (GSE197345),SwissTargetPrediction targets,fry,default analytic rotation approximation,,60,Up,0.218337158325809,0.385442763944598,0.0452735135477311,0.0679102703215966
+Purkinje cells (GSE197345),Similarity Ensemble Approach targets,fry,default analytic rotation approximation,,2,Down,0.629919897049028,0.629919897049028,1.0,1.0

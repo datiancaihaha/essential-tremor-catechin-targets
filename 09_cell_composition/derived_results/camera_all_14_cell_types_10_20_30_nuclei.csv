@@ -1,0 +1,421 @@
+"NGenes","Direction","PValue","BH_FDR_five_sets_within_cell_type_supplementary","gene_set","Correlation","cell_type","minimum_nuclei","correlation_method","nominal_p_lt_0_05","n_donors","n_et_donors","n_control_donors","BH_FDR_70_tests_within_threshold_and_correlation_method_supplementary"
+3,"Up",0.0525354294283177,0.262677147141588,"Carbonic anhydrase family",-0.0920601402609103,"Pericytes",10,"estimated",FALSE,102,16,86,0.954325131224468
+7,"Up",0.0530117478178538,0.265058739089269,"Carbonic anhydrase family",-0.0174126544976124,"Endocytes",10,"estimated",FALSE,107,16,91,0.954325131224468
+9,"Up",0.0633107299631956,0.316553649815978,"Carbonic anhydrase family",-0.0277497360838714,"Oligodendrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+12,"Up",0.067148179947129,0.335740899735645,"Carbonic anhydrase family",0.00669748399370763,"Granule",10,"estimated",FALSE,109,16,93,0.954325131224468
+12,"Down",0.214622847437914,0.772136611866703,"Targets predicted for all chemical forms",0.00161486860901696,"Microglia",10,"estimated",FALSE,108,16,92,0.954325131224468
+38,"Up",0.228567530233413,0.430093597475818,"Targets predicted for all sulfate and glucuronide conjugates",0.0133896111684735,"Granule",10,"estimated",FALSE,109,16,93,0.954325131224468
+11,"Down",0.286634973405715,0.874692271417198,"Targets predicted for all chemical forms",-0.0173495551374417,"MLI_2",10,"estimated",FALSE,106,16,90,0.954325131224468
+17,"Up",0.349555996936503,0.629596681657376,"Targets predicted for all sulfate and glucuronide conjugates",-0.0124517366992753,"UBC",10,"estimated",FALSE,107,16,91,0.954325131224468
+9,"Up",0.350686453591867,0.856551768184421,"Carbonic anhydrase family",-0.0185563540460958,"Astrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+117,"Up",0.369032827770151,0.714148293800628,"Targets predicted for any chemical form",0.0126022307068471,"Bergmann",10,"estimated",FALSE,108,16,92,0.954325131224468
+8,"Up",0.370941333679521,0.629596681657376,"Targets predicted for all chemical forms",-0.0384333057691298,"UBC",10,"estimated",FALSE,107,16,91,0.954325131224468
+58,"Up",0.377758008994425,0.629596681657376,"Targets predicted for any chemical form",0.00218218920495838,"UBC",10,"estimated",FALSE,107,16,91,0.954325131224468
+8,"Up",0.385075159285382,0.777811900018649,"Carbonic anhydrase family",0.0207039989388456,"MLI_1",10,"estimated",FALSE,108,16,92,0.954325131224468
+6,"Up",0.385453508021993,0.918789764655117,"Carbonic anhydrase family",-0.0230104748632733,"PLI",10,"estimated",FALSE,107,16,91,0.954325131224468
+19,"Up",0.394480177213829,0.430093597475818,"Targets predicted for all chemical forms",-0.00395332754859724,"Granule",10,"estimated",FALSE,109,16,93,0.954325131224468
+10,"Down",0.420256498035936,0.868212139446699,"Targets predicted for all chemical forms",-0.00959644366550341,"Golgi",10,"estimated",FALSE,106,16,90,0.954325131224468
+117,"Up",0.424636164542901,0.430093597475818,"Targets predicted for any sulfate or glucuronide conjugate",0.02004576244013,"Granule",10,"estimated",FALSE,109,16,93,0.954325131224468
+151,"Up",0.430093597475818,0.430093597475818,"Targets predicted for any chemical form",0.019999483305151,"Granule",10,"estimated",FALSE,109,16,93,0.954325131224468
+11,"Down",0.433517295018967,0.93316534176381,"Targets predicted for all chemical forms",-0.00639107646174465,"Endocytes",10,"estimated",FALSE,107,16,91,0.954325131224468
+75,"Up",0.438711410602845,0.809030210562962,"Targets predicted for any chemical form",0.00606130563733696,"Purkinje",10,"estimated",FALSE,108,16,92,0.954325131224468
+26,"Down",0.438930578321336,0.772136611866703,"Targets predicted for all sulfate and glucuronide conjugates",0.00972992420550201,"Microglia",10,"estimated",FALSE,108,16,92,0.954325131224468
+20,"Up",0.456690535181441,0.868212139446699,"Targets predicted for all sulfate and glucuronide conjugates",0.00167129646726626,"Golgi",10,"estimated",FALSE,106,16,90,0.954325131224468
+7,"Up",0.463281967120022,0.772136611866703,"Carbonic anhydrase family",-0.0416561079491756,"Microglia",10,"estimated",FALSE,108,16,92,0.954325131224468
+93,"Up",0.474050645525597,0.714148293800628,"Targets predicted for any sulfate or glucuronide conjugate",0.0145222365608664,"Bergmann",10,"estimated",FALSE,108,16,92,0.954325131224468
+14,"Down",0.494373044903568,0.896754558407418,"Targets predicted for all chemical forms",-0.0172994275900256,"Oligodendrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+73,"Down",0.494637363958675,0.777811900018649,"Targets predicted for any sulfate or glucuronide conjugate",0.00852402956119471,"MLI_1",10,"estimated",FALSE,108,16,92,0.954325131224468
+48,"Up",0.513668089680938,0.642085112101172,"Targets predicted for any sulfate or glucuronide conjugate",0.00352365740575431,"UBC",10,"estimated",FALSE,107,16,91,0.954325131224468
+29,"Up",0.573010021191992,0.777811900018649,"Targets predicted for all sulfate and glucuronide conjugates",0.00468014154872202,"MLI_1",10,"estimated",FALSE,108,16,92,0.954325131224468
+60,"Up",0.575603072340476,0.809030210562962,"Targets predicted for any sulfate or glucuronide conjugate",0.00525769719593217,"Purkinje",10,"estimated",FALSE,108,16,92,0.954325131224468
+13,"Down",0.578997626992085,0.940691915064118,"Targets predicted for all chemical forms",-0.00224522927335149,"OPC",10,"estimated",FALSE,108,16,92,0.954325131224468
+28,"Down",0.60510052699993,0.896754558407418,"Targets predicted for all sulfate and glucuronide conjugates",0.0020755490491824,"Oligodendrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+3,"Up",0.611615043214423,0.924625762518113,"Targets predicted for all chemical forms",-0.0153671098221377,"Pericytes",10,"estimated",FALSE,102,16,86,0.954325131224468
+90,"Up",0.614240086804871,0.856551768184421,"Targets predicted for any chemical form",0.0161601683183941,"Astrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+8,"Down",0.619897430953745,0.918789764655117,"Targets predicted for all chemical forms",-0.0353950754178587,"PLI",10,"estimated",FALSE,107,16,91,0.954325131224468
+90,"Down",0.622249520014919,0.777811900018649,"Targets predicted for any chemical form",0.00935880692507861,"MLI_1",10,"estimated",FALSE,108,16,92,0.954325131224468
+7,"Up",0.635857630393451,0.874692271417198,"Carbonic anhydrase family",0.0330613040583293,"MLI_2",10,"estimated",FALSE,106,16,90,0.954325131224468
+11,"Up",0.638067277622493,0.714148293800628,"Carbonic anhydrase family",-0.00730655248078881,"Bergmann",10,"estimated",FALSE,108,16,92,0.954325131224468
+28,"Up",0.644578009371582,0.924625762518113,"Targets predicted for any sulfate or glucuronide conjugate",0.00937570694309537,"Pericytes",10,"estimated",FALSE,102,16,86,0.954325131224468
+88,"Up",0.645420005728323,0.799624457240979,"Targets predicted for any chemical form",0.0101809867920771,"Microglia",10,"estimated",FALSE,108,16,92,0.954325131224468
+8,"Up",0.651841267040352,0.940691915064118,"Carbonic anhydrase family",-0.0263211039831496,"OPC",10,"estimated",FALSE,108,16,92,0.954325131224468
+17,"Down",0.68835727636454,0.714148293800628,"Targets predicted for all chemical forms",0.00265538281038663,"Bergmann",10,"estimated",FALSE,108,16,92,0.954325131224468
+73,"Up",0.691431725285253,0.856551768184421,"Targets predicted for any sulfate or glucuronide conjugate",0.0153962231351249,"Astrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+22,"Down",0.70047658483179,0.809030210562962,"Targets predicted for all sulfate and glucuronide conjugates",-0.00302410422752149,"Purkinje",10,"estimated",FALSE,108,16,92,0.954325131224468
+68,"Up",0.70641308847697,0.868212139446699,"Targets predicted for any chemical form",0.00810927966196449,"Golgi",10,"estimated",FALSE,106,16,90,0.954325131224468
+34,"Down",0.714148293800628,0.714148293800628,"Targets predicted for all sulfate and glucuronide conjugates",0.00741619774118266,"Bergmann",10,"estimated",FALSE,108,16,92,0.954325131224468
+65,"Down",0.723030170539008,0.93316534176381,"Targets predicted for any sulfate or glucuronide conjugate",0.0220556837411901,"Endocytes",10,"estimated",FALSE,107,16,91,0.954325131224468
+69,"Down",0.738610876692946,0.940691915064118,"Targets predicted for any sulfate or glucuronide conjugate",0.0137848295685129,"OPC",10,"estimated",FALSE,108,16,92,0.954325131224468
+54,"Up",0.745622071161593,0.868212139446699,"Targets predicted for any sulfate or glucuronide conjugate",0.00371427362165494,"Golgi",10,"estimated",FALSE,106,16,90,0.954325131224468
+60,"Down",0.762665418076674,0.874692271417198,"Targets predicted for any sulfate or glucuronide conjugate",0.00589483991080544,"MLI_2",10,"estimated",FALSE,106,16,90,0.954325131224468
+14,"Down",0.785978958094274,0.856551768184421,"Targets predicted for all chemical forms",0.002189324779729,"Astrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+9,"Down",0.794621377439799,0.924625762518113,"Targets predicted for all sulfate and glucuronide conjugates",0.00555984470434945,"Pericytes",10,"estimated",FALSE,102,16,86,0.954325131224468
+70,"Down",0.799624457240979,0.799624457240979,"Targets predicted for any sulfate or glucuronide conjugate",0.0100821590705627,"Microglia",10,"estimated",FALSE,108,16,92,0.954325131224468
+11,"Down",0.804189653748578,0.809030210562962,"Targets predicted for all chemical forms",-0.0228000427794689,"Purkinje",10,"estimated",FALSE,108,16,92,0.954325131224468
+8,"Down",0.809030210562962,0.809030210562962,"Carbonic anhydrase family",-0.0609342721213518,"Purkinje",10,"estimated",FALSE,108,16,92,0.954325131224468
+5,"Up",0.834038240971575,0.834038240971575,"Carbonic anhydrase family",-0.00720288767268931,"UBC",10,"estimated",FALSE,107,16,91,0.954325131224468
+75,"Down",0.838216224924149,0.874692271417198,"Targets predicted for any chemical form",0.00830203530435192,"MLI_2",10,"estimated",FALSE,106,16,90,0.954325131224468
+48,"Up",0.84579674817024,0.918789764655117,"Targets predicted for any sulfate or glucuronide conjugate",0.0120021744737829,"PLI",10,"estimated",FALSE,107,16,91,0.954325131224468
+26,"Up",0.856551768184421,0.856551768184421,"Targets predicted for all sulfate and glucuronide conjugates",0.0135942479600771,"Astrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+7,"Up",0.868212139446699,0.868212139446699,"Carbonic anhydrase family",-0.0451174379935005,"Golgi",10,"estimated",FALSE,106,16,90,0.954325131224468
+23,"Up",0.874692271417198,0.874692271417198,"Targets predicted for all sulfate and glucuronide conjugates",-0.000639782488730534,"MLI_2",10,"estimated",FALSE,106,16,90,0.954325131224468
+22,"Up",0.879401171481833,0.93316534176381,"Targets predicted for all sulfate and glucuronide conjugates",0.0128169181733496,"Endocytes",10,"estimated",FALSE,107,16,91,0.954325131224468
+94,"Up",0.880996522810881,0.896754558407418,"Targets predicted for any chemical form",0.0133757655661104,"Oligodendrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+77,"Down",0.896754558407418,0.896754558407418,"Targets predicted for any sulfate or glucuronide conjugate",0.0110616643359326,"Oligodendrocytes",10,"estimated",FALSE,108,16,92,0.954325131224468
+26,"Down",0.903942922227524,0.940691915064118,"Targets predicted for all sulfate and glucuronide conjugates",0.0123716194087247,"OPC",10,"estimated",FALSE,108,16,92,0.954325131224468
+18,"Down",0.907927880437831,0.918789764655117,"Targets predicted for all sulfate and glucuronide conjugates",0.00110356787241559,"PLI",10,"estimated",FALSE,107,16,91,0.954325131224468
+57,"Up",0.918789764655117,0.918789764655117,"Targets predicted for any chemical form",0.0107147476652369,"PLI",10,"estimated",FALSE,107,16,91,0.954325131224468
+34,"Up",0.924625762518113,0.924625762518113,"Targets predicted for any chemical form",0.00664418899167293,"Pericytes",10,"estimated",FALSE,102,16,86,0.954325131224468
+81,"Down",0.93316534176381,0.93316534176381,"Targets predicted for any chemical form",0.0204150807750225,"Endocytes",10,"estimated",FALSE,107,16,91,0.954325131224468
+88,"Up",0.940691915064118,0.940691915064118,"Targets predicted for any chemical form",0.016154617627099,"OPC",10,"estimated",FALSE,108,16,92,0.954325131224468
+13,"Up",0.989309841664952,0.989309841664952,"Targets predicted for all chemical forms",-0.00266375488989497,"MLI_1",10,"estimated",FALSE,108,16,92,0.989309841664952
+3,"Up",0.0520137080925143,0.260068540462571,"Carbonic anhydrase family",0.01,"Pericytes",10,"fixed_0.01",FALSE,102,16,86,0.946132979511012
+7,"Up",0.0572494472274777,0.286247236137388,"Carbonic anhydrase family",0.01,"Endocytes",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+12,"Up",0.0688174085309764,0.344087042654882,"Carbonic anhydrase family",0.01,"Granule",10,"fixed_0.01",FALSE,109,16,93,0.946132979511012
+9,"Up",0.0708404643543333,0.354202321771667,"Carbonic anhydrase family",0.01,"Oligodendrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+38,"Up",0.205734385786735,0.400203715171182,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Granule",10,"fixed_0.01",FALSE,109,16,93,0.946132979511012
+12,"Down",0.231810270894023,0.790936795266174,"Targets predicted for all chemical forms",0.01,"Microglia",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+11,"Down",0.307066326506315,0.886155813945536,"Targets predicted for all chemical forms",0.01,"MLI_2",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+151,"Up",0.316613454344051,0.400203715171182,"Targets predicted for any chemical form",0.01,"Granule",10,"fixed_0.01",FALSE,109,16,93,0.946132979511012
+117,"Up",0.320162972136945,0.400203715171182,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Granule",10,"fixed_0.01",FALSE,109,16,93,0.946132979511012
+117,"Up",0.335523620078362,0.722324201133417,"Targets predicted for any chemical form",0.01,"Bergmann",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+8,"Up",0.366891538782756,0.783117363000624,"Carbonic anhydrase family",0.01,"MLI_1",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+9,"Up",0.366973823741485,0.851182966395363,"Carbonic anhydrase family",0.01,"Astrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+17,"Up",0.382833721737929,0.699032152496671,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"UBC",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+8,"Up",0.384956813752023,0.699032152496671,"Targets predicted for all chemical forms",0.01,"UBC",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+6,"Up",0.394975073376035,0.917561827288732,"Carbonic anhydrase family",0.01,"PLI",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+93,"Up",0.42813840602671,0.722324201133417,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Bergmann",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+19,"Up",0.431152070943599,0.431152070943599,"Targets predicted for all chemical forms",0.01,"Granule",10,"fixed_0.01",FALSE,109,16,93,0.946132979511012
+10,"Down",0.4382317935971,0.871637518821416,"Targets predicted for all chemical forms",0.01,"Golgi",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+26,"Down",0.438387111829827,0.790936795266174,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Microglia",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+58,"Up",0.452956746472467,0.699032152496671,"Targets predicted for any chemical form",0.01,"UBC",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+11,"Down",0.453410459085745,0.919068602738296,"Targets predicted for all chemical forms",0.01,"Endocytes",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+7,"Up",0.474562077159705,0.790936795266174,"Carbonic anhydrase family",0.01,"Microglia",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+75,"Up",0.477933197846452,0.814794603560874,"Targets predicted for any chemical form",0.01,"Purkinje",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+20,"Up",0.486536093655278,0.871637518821416,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Golgi",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+73,"Down",0.506718411767576,0.783117363000624,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"MLI_1",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+14,"Down",0.518796984449635,0.894175582816405,"Targets predicted for all chemical forms",0.01,"Oligodendrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+48,"Up",0.559225721997336,0.699032152496671,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"UBC",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+90,"Up",0.565981615245171,0.851182966395363,"Targets predicted for any chemical form",0.01,"Astrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+29,"Up",0.595017672726892,0.783117363000624,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"MLI_1",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+13,"Down",0.598898966766881,0.932616794089426,"Targets predicted for all chemical forms",0.01,"OPC",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+60,"Up",0.610032283015683,0.814794603560874,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Purkinje",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+7,"Up",0.613585646785261,0.886155813945536,"Carbonic anhydrase family",0.01,"MLI_2",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+3,"Up",0.613998111334286,0.927613869608214,"Targets predicted for all chemical forms",0.01,"Pericytes",10,"fixed_0.01",FALSE,102,16,86,0.946132979511012
+90,"Down",0.626493890400499,0.783117363000624,"Targets predicted for any chemical form",0.01,"MLI_1",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+8,"Down",0.630533427857808,0.917561827288732,"Targets predicted for all chemical forms",0.01,"PLI",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+28,"Down",0.636176693762068,0.894175582816405,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Oligodendrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+88,"Up",0.643062113880647,0.798788588765202,"Targets predicted for any chemical form",0.01,"Microglia",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+28,"Up",0.645756473406038,0.927613869608214,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Pericytes",10,"fixed_0.01",FALSE,102,16,86,0.946132979511012
+11,"Up",0.652809658659348,0.722324201133417,"Carbonic anhydrase family",0.01,"Bergmann",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+73,"Up",0.659533827202517,0.851182966395363,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Astrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+8,"Up",0.66175939155013,0.932616794089426,"Carbonic anhydrase family",0.01,"OPC",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+65,"Down",0.666708281890864,0.919068602738296,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Endocytes",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+17,"Down",0.702963338785785,0.722324201133417,"Targets predicted for all chemical forms",0.01,"Bergmann",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+68,"Up",0.716453418004415,0.871637518821416,"Targets predicted for any chemical form",0.01,"Golgi",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+69,"Down",0.719420486293985,0.932616794089426,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"OPC",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+34,"Down",0.722324201133417,0.722324201133417,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Bergmann",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+22,"Down",0.725772546289384,0.814794603560874,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Purkinje",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+54,"Up",0.773439706043644,0.871637518821416,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Golgi",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+60,"Down",0.780332765856321,0.886155813945536,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"MLI_2",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+14,"Down",0.795064965179397,0.851182966395363,"Targets predicted for all chemical forms",0.01,"Astrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+9,"Down",0.79740961800043,0.927613869608214,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Pericytes",10,"fixed_0.01",FALSE,102,16,86,0.946132979511012
+70,"Down",0.798788588765202,0.798788588765202,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Microglia",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+11,"Down",0.812646969049179,0.814794603560874,"Targets predicted for all chemical forms",0.01,"Purkinje",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+8,"Down",0.814794603560874,0.814794603560874,"Carbonic anhydrase family",0.01,"Purkinje",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+5,"Up",0.836804103434535,0.836804103434535,"Carbonic anhydrase family",0.01,"UBC",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+48,"Up",0.840627610979244,0.917561827288732,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"PLI",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+75,"Down",0.843664377543838,0.886155813945536,"Targets predicted for any chemical form",0.01,"MLI_2",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+26,"Up",0.851182966395363,0.851182966395363,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Astrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+94,"Up",0.87147552802211,0.894175582816405,"Targets predicted for any chemical form",0.01,"Oligodendrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+7,"Up",0.871637518821416,0.871637518821416,"Carbonic anhydrase family",0.01,"Golgi",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+22,"Up",0.876209595841819,0.919068602738296,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Endocytes",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+23,"Up",0.886155813945536,0.886155813945536,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"MLI_2",10,"fixed_0.01",FALSE,106,16,90,0.946132979511012
+77,"Down",0.894175582816405,0.894175582816405,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Oligodendrocytes",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+26,"Down",0.90146474443378,0.932616794089426,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"OPC",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+18,"Down",0.913833247851277,0.917561827288732,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"PLI",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+57,"Up",0.917561827288732,0.917561827288732,"Targets predicted for any chemical form",0.01,"PLI",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+81,"Down",0.919068602738296,0.919068602738296,"Targets predicted for any chemical form",0.01,"Endocytes",10,"fixed_0.01",FALSE,107,16,91,0.946132979511012
+34,"Up",0.927613869608214,0.927613869608214,"Targets predicted for any chemical form",0.01,"Pericytes",10,"fixed_0.01",FALSE,102,16,86,0.946132979511012
+88,"Up",0.932616794089426,0.932616794089426,"Targets predicted for any chemical form",0.01,"OPC",10,"fixed_0.01",FALSE,108,16,92,0.946132979511012
+13,"Up",0.989873576083982,0.989873576083982,"Targets predicted for all chemical forms",0.01,"MLI_1",10,"fixed_0.01",FALSE,108,16,92,0.989873576083982
+8,"Up",0.036689293853276,0.18344646926638,"Carbonic anhydrase family",-0.00561202707244646,"Endocytes",20,"estimated",TRUE,103,16,87,0.976284808157817
+3,"Up",0.0532039414020019,0.26601970701001,"Carbonic anhydrase family",-0.0947579947615157,"Pericytes",20,"estimated",FALSE,101,16,85,0.976284808157817
+9,"Up",0.062031490433613,0.310157452168065,"Carbonic anhydrase family",-0.0271024490081375,"Oligodendrocytes",20,"estimated",FALSE,107,16,91,0.976284808157817
+12,"Up",0.067148179947129,0.335740899735645,"Carbonic anhydrase family",0.00669748399370763,"Granule",20,"estimated",FALSE,109,16,93,0.976284808157817
+12,"Down",0.216735063584181,0.755985342542136,"Targets predicted for all chemical forms",0.00169049543094297,"Microglia",20,"estimated",FALSE,107,16,91,0.976284808157817
+38,"Up",0.228567530233413,0.430093597475818,"Targets predicted for all sulfate and glucuronide conjugates",0.0133896111684735,"Granule",20,"estimated",FALSE,109,16,93,0.976284808157817
+58,"Up",0.264807729608405,0.598747615759461,"Targets predicted for any chemical form",0.00165670486834559,"UBC",20,"estimated",FALSE,103,16,87,0.976284808157817
+11,"Down",0.27287463746619,0.718310833799443,"Targets predicted for all chemical forms",-0.0164309551880664,"MLI_2",20,"estimated",FALSE,104,16,88,0.976284808157817
+9,"Up",0.350686453591867,0.856551768184421,"Carbonic anhydrase family",-0.0185563540460958,"Astrocytes",20,"estimated",FALSE,108,16,92,0.976284808157817
+48,"Up",0.360626440621963,0.598747615759461,"Targets predicted for any sulfate or glucuronide conjugate",0.00261434953969891,"UBC",20,"estimated",FALSE,103,16,87,0.976284808157817
+6,"Up",0.364335083027778,0.948390956496165,"Carbonic anhydrase family",-0.0215683820061845,"PLI",20,"estimated",FALSE,105,16,89,0.976284808157817
+117,"Up",0.369032827770151,0.714148293800628,"Targets predicted for any chemical form",0.0126022307068471,"Bergmann",20,"estimated",FALSE,108,16,92,0.976284808157817
+8,"Up",0.385075159285382,0.777811900018649,"Carbonic anhydrase family",0.0207039989388456,"MLI_1",20,"estimated",FALSE,108,16,92,0.976284808157817
+19,"Up",0.394480177213829,0.430093597475818,"Targets predicted for all chemical forms",-0.00395332754859724,"Granule",20,"estimated",FALSE,109,16,93,0.976284808157817
+17,"Up",0.411088197402843,0.598747615759461,"Targets predicted for all sulfate and glucuronide conjugates",-0.0103636539245423,"UBC",20,"estimated",FALSE,103,16,87,0.976284808157817
+10,"Down",0.420256498035936,0.868212139446699,"Targets predicted for all chemical forms",-0.00959644366550341,"Golgi",20,"estimated",FALSE,106,16,90,0.976284808157817
+117,"Up",0.424636164542901,0.430093597475818,"Targets predicted for any sulfate or glucuronide conjugate",0.02004576244013,"Granule",20,"estimated",FALSE,109,16,93,0.976284808157817
+151,"Up",0.430093597475818,0.430093597475818,"Targets predicted for any chemical form",0.019999483305151,"Granule",20,"estimated",FALSE,109,16,93,0.976284808157817
+75,"Up",0.438711410602845,0.809030210562962,"Targets predicted for any chemical form",0.00606130563733696,"Purkinje",20,"estimated",FALSE,108,16,92,0.976284808157817
+26,"Down",0.447349178428361,0.755985342542136,"Targets predicted for all sulfate and glucuronide conjugates",0.00992871456752441,"Microglia",20,"estimated",FALSE,107,16,91,0.976284808157817
+7,"Up",0.453591205525281,0.755985342542136,"Carbonic anhydrase family",-0.0426244734943892,"Microglia",20,"estimated",FALSE,107,16,91,0.976284808157817
+20,"Up",0.456690535181441,0.868212139446699,"Targets predicted for all sulfate and glucuronide conjugates",0.00167129646726626,"Golgi",20,"estimated",FALSE,106,16,90,0.976284808157817
+93,"Up",0.474050645525597,0.714148293800628,"Targets predicted for any sulfate or glucuronide conjugate",0.0145222365608664,"Bergmann",20,"estimated",FALSE,108,16,92,0.976284808157817
+8,"Up",0.478998092607569,0.598747615759461,"Targets predicted for all chemical forms",-0.0328412673354461,"UBC",20,"estimated",FALSE,103,16,87,0.976284808157817
+11,"Down",0.481736200219008,0.927808127460631,"Targets predicted for all chemical forms",-0.00574998689177426,"Endocytes",20,"estimated",FALSE,103,16,87,0.976284808157817
+73,"Down",0.494637363958675,0.777811900018649,"Targets predicted for any sulfate or glucuronide conjugate",0.00852402956119471,"MLI_1",20,"estimated",FALSE,108,16,92,0.976284808157817
+14,"Down",0.509096021715012,0.91496272927033,"Targets predicted for all chemical forms",-0.0168275303385527,"Oligodendrocytes",20,"estimated",FALSE,107,16,91,0.976284808157817
+29,"Up",0.573010021191992,0.777811900018649,"Targets predicted for all sulfate and glucuronide conjugates",0.00468014154872202,"MLI_1",20,"estimated",FALSE,108,16,92,0.976284808157817
+60,"Up",0.575603072340476,0.809030210562962,"Targets predicted for any sulfate or glucuronide conjugate",0.00525769719593217,"Purkinje",20,"estimated",FALSE,108,16,92,0.976284808157817
+13,"Down",0.58245665042216,0.936410581179063,"Targets predicted for all chemical forms",-0.00448941615323543,"OPC",20,"estimated",FALSE,107,16,91,0.976284808157817
+90,"Up",0.614240086804871,0.856551768184421,"Targets predicted for any chemical form",0.0161601683183941,"Astrocytes",20,"estimated",FALSE,108,16,92,0.976284808157817
+88,"Up",0.614773585037354,0.768466981296692,"Targets predicted for any chemical form",0.0105198235399068,"Microglia",20,"estimated",FALSE,107,16,91,0.976284808157817
+3,"Up",0.615080539055557,0.942075701643197,"Targets predicted for all chemical forms",-0.00914066528433832,"Pericytes",20,"estimated",FALSE,101,16,85,0.976284808157817
+28,"Down",0.618915800127401,0.91496272927033,"Targets predicted for all sulfate and glucuronide conjugates",0.00339876203518525,"Oligodendrocytes",20,"estimated",FALSE,107,16,91,0.976284808157817
+90,"Down",0.622249520014919,0.777811900018649,"Targets predicted for any chemical form",0.00935880692507861,"MLI_1",20,"estimated",FALSE,108,16,92,0.976284808157817
+7,"Up",0.623659789160997,0.718310833799443,"Carbonic anhydrase family",0.0308257645379946,"MLI_2",20,"estimated",FALSE,104,16,88,0.976284808157817
+11,"Up",0.638067277622493,0.714148293800628,"Carbonic anhydrase family",-0.00730655248078881,"Bergmann",20,"estimated",FALSE,108,16,92,0.976284808157817
+8,"Up",0.638548175166046,0.936410581179063,"Carbonic anhydrase family",-0.0268326247098478,"OPC",20,"estimated",FALSE,107,16,91,0.976284808157817
+8,"Down",0.639387537863268,0.948390956496165,"Targets predicted for all chemical forms",-0.0333806758636394,"PLI",20,"estimated",FALSE,105,16,89,0.976284808157817
+60,"Down",0.646534272550236,0.718310833799443,"Targets predicted for any sulfate or glucuronide conjugate",0.00503941287393192,"MLI_2",20,"estimated",FALSE,104,16,88,0.976284808157817
+76,"Down",0.659263501882225,0.718310833799443,"Targets predicted for any chemical form",0.00809011420206105,"MLI_2",20,"estimated",FALSE,104,16,88,0.976284808157817
+28,"Up",0.664191344516013,0.942075701643197,"Targets predicted for any sulfate or glucuronide conjugate",0.0136988285596035,"Pericytes",20,"estimated",FALSE,101,16,85,0.976284808157817
+17,"Down",0.68835727636454,0.714148293800628,"Targets predicted for all chemical forms",0.00265538281038663,"Bergmann",20,"estimated",FALSE,108,16,92,0.976284808157817
+73,"Up",0.691431725285253,0.856551768184421,"Targets predicted for any sulfate or glucuronide conjugate",0.0153962231351249,"Astrocytes",20,"estimated",FALSE,108,16,92,0.976284808157817
+65,"Down",0.692157191037913,0.927808127460631,"Targets predicted for any sulfate or glucuronide conjugate",0.0210619598811564,"Endocytes",20,"estimated",FALSE,103,16,87,0.976284808157817
+22,"Down",0.70047658483179,0.809030210562962,"Targets predicted for all sulfate and glucuronide conjugates",-0.00302410422752149,"Purkinje",20,"estimated",FALSE,108,16,92,0.976284808157817
+68,"Up",0.70641308847697,0.868212139446699,"Targets predicted for any chemical form",0.00810927966196449,"Golgi",20,"estimated",FALSE,106,16,90,0.976284808157817
+34,"Down",0.714148293800628,0.714148293800628,"Targets predicted for all sulfate and glucuronide conjugates",0.00741619774118266,"Bergmann",20,"estimated",FALSE,108,16,92,0.976284808157817
+22,"Up",0.718310833799443,0.718310833799443,"Targets predicted for all sulfate and glucuronide conjugates",-0.00149990129931629,"MLI_2",20,"estimated",FALSE,104,16,88,0.976284808157817
+54,"Up",0.745622071161593,0.868212139446699,"Targets predicted for any sulfate or glucuronide conjugate",0.00371427362165494,"Golgi",20,"estimated",FALSE,106,16,90,0.976284808157817
+48,"Up",0.763182380698231,0.948390956496165,"Targets predicted for any sulfate or glucuronide conjugate",0.0116320709064281,"PLI",20,"estimated",FALSE,105,16,89,0.976284808157817
+9,"Down",0.784832510562317,0.942075701643197,"Targets predicted for all sulfate and glucuronide conjugates",0.0103141746628436,"Pericytes",20,"estimated",FALSE,101,16,85,0.976284808157817
+14,"Down",0.785978958094274,0.856551768184421,"Targets predicted for all chemical forms",0.002189324779729,"Astrocytes",20,"estimated",FALSE,108,16,92,0.976284808157817
+11,"Down",0.804189653748578,0.809030210562962,"Targets predicted for all chemical forms",-0.0228000427794689,"Purkinje",20,"estimated",FALSE,108,16,92,0.976284808157817
+8,"Down",0.809030210562962,0.809030210562962,"Carbonic anhydrase family",-0.0609342721213518,"Purkinje",20,"estimated",FALSE,108,16,92,0.976284808157817
+57,"Up",0.822833122706307,0.948390956496165,"Targets predicted for any chemical form",0.0106319941339661,"PLI",20,"estimated",FALSE,105,16,89,0.976284808157817
+70,"Down",0.826498662935791,0.936410581179063,"Targets predicted for any sulfate or glucuronide conjugate",0.0115794026689333,"OPC",20,"estimated",FALSE,107,16,91,0.976284808157817
+70,"Down",0.839375723801522,0.839375723801522,"Targets predicted for any sulfate or glucuronide conjugate",0.0101750480412308,"Microglia",20,"estimated",FALSE,107,16,91,0.976284808157817
+26,"Up",0.856551768184421,0.856551768184421,"Targets predicted for all sulfate and glucuronide conjugates",0.0135942479600771,"Astrocytes",20,"estimated",FALSE,108,16,92,0.976284808157817
+94,"Up",0.858025402407541,0.91496272927033,"Targets predicted for any chemical form",0.0137959682670839,"Oligodendrocytes",20,"estimated",FALSE,107,16,91,0.976284808157817
+89,"Up",0.858143848912043,0.936410581179063,"Targets predicted for any chemical form",0.0146796395550751,"OPC",20,"estimated",FALSE,107,16,91,0.976284808157817
+7,"Up",0.868212139446699,0.868212139446699,"Carbonic anhydrase family",-0.0451174379935005,"Golgi",20,"estimated",FALSE,106,16,90,0.976284808157817
+22,"Up",0.885470816395745,0.927808127460631,"Targets predicted for all sulfate and glucuronide conjugates",0.0171345899274078,"Endocytes",20,"estimated",FALSE,103,16,87,0.976284808157817
+77,"Down",0.91496272927033,0.91496272927033,"Targets predicted for any sulfate or glucuronide conjugate",0.0114518695149481,"Oligodendrocytes",20,"estimated",FALSE,107,16,91,0.976284808157817
+81,"Down",0.927808127460631,0.927808127460631,"Targets predicted for any chemical form",0.0197474686484985,"Endocytes",20,"estimated",FALSE,103,16,87,0.976284808157817
+26,"Down",0.936410581179063,0.936410581179063,"Targets predicted for all sulfate and glucuronide conjugates",0.0133634888131508,"OPC",20,"estimated",FALSE,107,16,91,0.976284808157817
+34,"Up",0.942075701643197,0.942075701643197,"Targets predicted for any chemical form",0.00993448964440329,"Pericytes",20,"estimated",FALSE,101,16,85,0.976284808157817
+18,"Down",0.948390956496165,0.948390956496165,"Targets predicted for all sulfate and glucuronide conjugates",0.000539404999825495,"PLI",20,"estimated",FALSE,105,16,89,0.976284808157817
+5,"Down",0.986160761427036,0.986160761427036,"Carbonic anhydrase family",-0.00337260886359653,"UBC",20,"estimated",FALSE,103,16,87,0.989309841664952
+13,"Up",0.989309841664952,0.989309841664952,"Targets predicted for all chemical forms",-0.00266375488989497,"MLI_1",20,"estimated",FALSE,108,16,92,0.989309841664952
+8,"Up",0.0405792843034636,0.202896421517318,"Carbonic anhydrase family",0.01,"Endocytes",20,"fixed_0.01",TRUE,103,16,87,0.975929796498677
+3,"Up",0.0526584644849945,0.263292322424972,"Carbonic anhydrase family",0.01,"Pericytes",20,"fixed_0.01",FALSE,101,16,85,0.975929796498677
+12,"Up",0.0688174085309764,0.344087042654882,"Carbonic anhydrase family",0.01,"Granule",20,"fixed_0.01",FALSE,109,16,93,0.975929796498677
+9,"Up",0.0694210388507294,0.347105194253647,"Carbonic anhydrase family",0.01,"Oligodendrocytes",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+38,"Up",0.205734385786735,0.400203715171182,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Granule",20,"fixed_0.01",FALSE,109,16,93,0.975929796498677
+12,"Down",0.233756744834315,0.761807670485148,"Targets predicted for all chemical forms",0.01,"Microglia",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+11,"Down",0.293100750912395,0.742210112809202,"Targets predicted for all chemical forms",0.01,"MLI_2",20,"fixed_0.01",FALSE,104,16,88,0.975929796498677
+151,"Up",0.316613454344051,0.400203715171182,"Targets predicted for any chemical form",0.01,"Granule",20,"fixed_0.01",FALSE,109,16,93,0.975929796498677
+117,"Up",0.320162972136945,0.400203715171182,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Granule",20,"fixed_0.01",FALSE,109,16,93,0.975929796498677
+117,"Up",0.335523620078362,0.722324201133417,"Targets predicted for any chemical form",0.01,"Bergmann",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+58,"Up",0.348520458809308,0.615092667813252,"Targets predicted for any chemical form",0.01,"UBC",20,"fixed_0.01",FALSE,103,16,87,0.975929796498677
+8,"Up",0.366891538782756,0.783117363000624,"Carbonic anhydrase family",0.01,"MLI_1",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+9,"Up",0.366973823741485,0.851182966395363,"Carbonic anhydrase family",0.01,"Astrocytes",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+6,"Up",0.373827131919979,0.951936120287033,"Carbonic anhydrase family",0.01,"PLI",20,"fixed_0.01",FALSE,105,16,89,0.975929796498677
+48,"Up",0.421791522036864,0.615092667813252,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"UBC",20,"fixed_0.01",FALSE,103,16,87,0.975929796498677
+93,"Up",0.42813840602671,0.722324201133417,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Bergmann",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+19,"Up",0.431152070943599,0.431152070943599,"Targets predicted for all chemical forms",0.01,"Granule",20,"fixed_0.01",FALSE,109,16,93,0.975929796498677
+10,"Down",0.4382317935971,0.871637518821416,"Targets predicted for all chemical forms",0.01,"Golgi",20,"fixed_0.01",FALSE,106,16,90,0.975929796498677
+17,"Up",0.443328130750464,0.615092667813252,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"UBC",20,"fixed_0.01",FALSE,103,16,87,0.975929796498677
+26,"Down",0.445911299310545,0.761807670485148,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Microglia",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+7,"Up",0.464941941433774,0.761807670485148,"Carbonic anhydrase family",0.01,"Microglia",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+75,"Up",0.477933197846452,0.814794603560874,"Targets predicted for any chemical form",0.01,"Purkinje",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+20,"Up",0.486536093655278,0.871637518821416,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Golgi",20,"fixed_0.01",FALSE,106,16,90,0.975929796498677
+8,"Up",0.492074134250602,0.615092667813252,"Targets predicted for all chemical forms",0.01,"UBC",20,"fixed_0.01",FALSE,103,16,87,0.975929796498677
+11,"Down",0.500708203924057,0.913462465913184,"Targets predicted for all chemical forms",0.01,"Endocytes",20,"fixed_0.01",FALSE,103,16,87,0.975929796498677
+73,"Down",0.506718411767576,0.783117363000624,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"MLI_1",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+14,"Down",0.533059256846081,0.912139221260141,"Targets predicted for all chemical forms",0.01,"Oligodendrocytes",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+90,"Up",0.565981615245171,0.851182966395363,"Targets predicted for any chemical form",0.01,"Astrocytes",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+29,"Up",0.595017672726892,0.783117363000624,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"MLI_1",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+13,"Down",0.602222583048667,0.934152601963283,"Targets predicted for all chemical forms",0.01,"OPC",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+7,"Up",0.602788267086409,0.742210112809202,"Carbonic anhydrase family",0.01,"MLI_2",20,"fixed_0.01",FALSE,104,16,88,0.975929796498677
+88,"Up",0.609446136388119,0.761807670485148,"Targets predicted for any chemical form",0.01,"Microglia",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+60,"Up",0.610032283015683,0.814794603560874,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Purkinje",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+3,"Up",0.617438153388365,0.941973612502925,"Targets predicted for all chemical forms",0.01,"Pericytes",20,"fixed_0.01",FALSE,101,16,85,0.975929796498677
+90,"Down",0.626493890400499,0.783117363000624,"Targets predicted for any chemical form",0.01,"MLI_1",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+65,"Down",0.634889080786895,0.913462465913184,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Endocytes",20,"fixed_0.01",FALSE,103,16,87,0.975929796498677
+28,"Down",0.64361856188932,0.912139221260141,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Oligodendrocytes",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+8,"Up",0.64876504385554,0.934152601963283,"Carbonic anhydrase family",0.01,"OPC",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+8,"Down",0.64956609712391,0.951936120287033,"Targets predicted for all chemical forms",0.01,"PLI",20,"fixed_0.01",FALSE,105,16,89,0.975929796498677
+28,"Up",0.651164006993751,0.941973612502925,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Pericytes",20,"fixed_0.01",FALSE,101,16,85,0.975929796498677
+11,"Up",0.652809658659348,0.722324201133417,"Carbonic anhydrase family",0.01,"Bergmann",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+73,"Up",0.659533827202517,0.851182966395363,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Astrocytes",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+76,"Down",0.671666075611901,0.742210112809202,"Targets predicted for any chemical form",0.01,"MLI_2",20,"fixed_0.01",FALSE,104,16,88,0.975929796498677
+60,"Down",0.677640168543787,0.742210112809202,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"MLI_2",20,"fixed_0.01",FALSE,104,16,88,0.975929796498677
+17,"Down",0.702963338785785,0.722324201133417,"Targets predicted for all chemical forms",0.01,"Bergmann",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+68,"Up",0.716453418004415,0.871637518821416,"Targets predicted for any chemical form",0.01,"Golgi",20,"fixed_0.01",FALSE,106,16,90,0.975929796498677
+34,"Down",0.722324201133417,0.722324201133417,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Bergmann",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+22,"Down",0.725772546289384,0.814794603560874,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Purkinje",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+22,"Up",0.742210112809202,0.742210112809202,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"MLI_2",20,"fixed_0.01",FALSE,104,16,88,0.975929796498677
+48,"Up",0.756660505465992,0.951936120287033,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"PLI",20,"fixed_0.01",FALSE,105,16,89,0.975929796498677
+54,"Up",0.773439706043644,0.871637518821416,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Golgi",20,"fixed_0.01",FALSE,106,16,90,0.975929796498677
+9,"Down",0.784010718609142,0.941973612502925,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Pericytes",20,"fixed_0.01",FALSE,101,16,85,0.975929796498677
+14,"Down",0.795064965179397,0.851182966395363,"Targets predicted for all chemical forms",0.01,"Astrocytes",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+11,"Down",0.812646969049179,0.814794603560874,"Targets predicted for all chemical forms",0.01,"Purkinje",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+8,"Down",0.814794603560874,0.814794603560874,"Carbonic anhydrase family",0.01,"Purkinje",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+57,"Up",0.820418161093349,0.951936120287033,"Targets predicted for any chemical form",0.01,"PLI",20,"fixed_0.01",FALSE,105,16,89,0.975929796498677
+70,"Down",0.820648508424732,0.934152601963283,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"OPC",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+70,"Down",0.838406206462545,0.838406206462545,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Microglia",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+89,"Up",0.843219320255006,0.934152601963283,"Targets predicted for any chemical form",0.01,"OPC",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+94,"Up",0.845391779420718,0.912139221260141,"Targets predicted for any chemical form",0.01,"Oligodendrocytes",20,"fixed_0.01",FALSE,107,16,91,0.975929796498677
+26,"Up",0.851182966395363,0.851182966395363,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Astrocytes",20,"fixed_0.01",FALSE,108,16,92,0.975929796498677
+7,"Up",0.871637518821416,0.871637518821416,"Carbonic anhydrase family",0.01,"Golgi",20,"fixed_0.01",FALSE,106,16,90,0.975929796498677
+22,"Up",0.878336816848809,0.913462465913184,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Endocytes",20,"fixed_0.01",FALSE,103,16,87,0.975929796498677
+77,"Down",0.912139221260141,0.912139221260141,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Oligodendrocytes",20,"fixed_0.01",FALSE,107,16,91,0.979934241471945
+81,"Down",0.913462465913184,0.913462465913184,"Targets predicted for any chemical form",0.01,"Endocytes",20,"fixed_0.01",FALSE,103,16,87,0.979934241471945
+26,"Down",0.934152601963283,0.934152601963283,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"OPC",20,"fixed_0.01",FALSE,107,16,91,0.979934241471945
+34,"Up",0.941973612502925,0.941973612502925,"Targets predicted for any chemical form",0.01,"Pericytes",20,"fixed_0.01",FALSE,101,16,85,0.979934241471945
+18,"Down",0.951936120287033,0.951936120287033,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"PLI",20,"fixed_0.01",FALSE,105,16,89,0.979934241471945
+5,"Down",0.986394760714159,0.986394760714159,"Carbonic anhydrase family",0.01,"UBC",20,"fixed_0.01",FALSE,103,16,87,0.989873576083982
+13,"Up",0.989873576083982,0.989873576083982,"Targets predicted for all chemical forms",0.01,"MLI_1",20,"fixed_0.01",FALSE,108,16,92,0.989873576083982
+8,"Up",0.0636848227351459,0.31842411367573,"Carbonic anhydrase family",-0.00841145534037161,"Endocytes",30,"estimated",FALSE,99,16,83,0.995612078093843
+9,"Up",0.0666729452502656,0.333364726251328,"Carbonic anhydrase family",-0.0271696167928938,"Oligodendrocytes",30,"estimated",FALSE,106,16,90,0.995612078093843
+12,"Up",0.067148179947129,0.335740899735645,"Carbonic anhydrase family",0.00669748399370763,"Granule",30,"estimated",FALSE,109,16,93,0.995612078093843
+3,"Up",0.0899908390718629,0.449954195359314,"Carbonic anhydrase family",-0.06933580996083,"Pericytes",30,"estimated",FALSE,91,16,75,0.995612078093843
+58,"Up",0.162972094983965,0.496662410492667,"Targets predicted for any chemical form",0.000983211153500189,"UBC",30,"estimated",FALSE,101,15,86,0.995612078093843
+38,"Up",0.228567530233413,0.430093597475818,"Targets predicted for all sulfate and glucuronide conjugates",0.0133896111684735,"Granule",30,"estimated",FALSE,109,16,93,0.995612078093843
+48,"Up",0.253927295095378,0.496662410492667,"Targets predicted for any sulfate or glucuronide conjugate",0.0014906465072883,"UBC",30,"estimated",FALSE,101,15,86,0.995612078093843
+28,"Up",0.26437939792146,0.660948494803649,"Targets predicted for any sulfate or glucuronide conjugate",0.00324952372693948,"Pericytes",30,"estimated",FALSE,91,16,75,0.995612078093843
+13,"Down",0.284133899405493,0.756711932994475,"Targets predicted for all chemical forms",0.0031498141485217,"Microglia",30,"estimated",FALSE,105,16,89,0.995612078093843
+17,"Up",0.2979974462956,0.496662410492667,"Targets predicted for all sulfate and glucuronide conjugates",-0.0135778211684552,"UBC",30,"estimated",FALSE,101,15,86,0.995612078093843
+11,"Down",0.309100420575224,0.743202018922826,"Targets predicted for all chemical forms",-0.0174531937439746,"MLI_2",30,"estimated",FALSE,98,15,83,0.995612078093843
+5,"Up",0.324032567570267,0.952942989032678,"Carbonic anhydrase family",-0.0396071456653153,"PLI",30,"estimated",FALSE,98,16,82,0.995612078093843
+9,"Up",0.358555994668306,0.870792003698425,"Carbonic anhydrase family",-0.0197377223892942,"Astrocytes",30,"estimated",FALSE,107,16,91,0.995612078093843
+117,"Up",0.369032827770151,0.714148293800628,"Targets predicted for any chemical form",0.0126022307068471,"Bergmann",30,"estimated",FALSE,108,16,92,0.995612078093843
+8,"Up",0.385075159285382,0.777811900018649,"Carbonic anhydrase family",0.0207039989388456,"MLI_1",30,"estimated",FALSE,108,16,92,0.995612078093843
+19,"Up",0.394480177213829,0.430093597475818,"Targets predicted for all chemical forms",-0.00395332754859724,"Granule",30,"estimated",FALSE,109,16,93,0.995612078093843
+79,"Down",0.414606317589393,0.743202018922826,"Targets predicted for any chemical form",0.00881444593853842,"MLI_2",30,"estimated",FALSE,98,15,83,0.995612078093843
+8,"Up",0.422948789482793,0.756711932994475,"Carbonic anhydrase family",-0.0441832868581311,"Microglia",30,"estimated",FALSE,105,16,89,0.995612078093843
+117,"Up",0.424636164542901,0.430093597475818,"Targets predicted for any sulfate or glucuronide conjugate",0.02004576244013,"Granule",30,"estimated",FALSE,109,16,93,0.995612078093843
+151,"Up",0.430093597475818,0.430093597475818,"Targets predicted for any chemical form",0.019999483305151,"Granule",30,"estimated",FALSE,109,16,93,0.995612078093843
+10,"Down",0.433928759800576,0.864040416853643,"Targets predicted for all chemical forms",-0.0120923770034004,"Golgi",30,"estimated",FALSE,105,16,89,0.995612078093843
+74,"Up",0.435455806792327,0.888156377483414,"Targets predicted for any chemical form",0.00639978663164703,"Purkinje",30,"estimated",FALSE,105,16,89,0.995612078093843
+20,"Up",0.435564873866345,0.864040416853643,"Targets predicted for all sulfate and glucuronide conjugates",-0.00140800044184094,"Golgi",30,"estimated",FALSE,105,16,89,0.995612078093843
+63,"Down",0.445921211353696,0.743202018922826,"Targets predicted for any sulfate or glucuronide conjugate",0.00515221013772783,"MLI_2",30,"estimated",FALSE,98,15,83,0.995612078093843
+8,"Up",0.466639137888145,0.583298922360181,"Targets predicted for all chemical forms",-0.0323979491285286,"UBC",30,"estimated",FALSE,101,15,86,0.995612078093843
+93,"Up",0.474050645525597,0.714148293800628,"Targets predicted for any sulfate or glucuronide conjugate",0.0145222365608664,"Bergmann",30,"estimated",FALSE,108,16,92,0.995612078093843
+73,"Down",0.494637363958675,0.777811900018649,"Targets predicted for any sulfate or glucuronide conjugate",0.00852402956119471,"MLI_1",30,"estimated",FALSE,108,16,92,0.995612078093843
+27,"Down",0.505768383674616,0.756711932994475,"Targets predicted for all sulfate and glucuronide conjugates",0.0107369938912654,"Microglia",30,"estimated",FALSE,105,16,89,0.995612078093843
+14,"Down",0.526086529674332,0.937569234841031,"Targets predicted for all chemical forms",-0.0165881930889574,"Oligodendrocytes",30,"estimated",FALSE,106,16,90,0.995612078093843
+34,"Up",0.527373565762722,0.761798820295442,"Targets predicted for any chemical form",0.00502918980280684,"Pericytes",30,"estimated",FALSE,91,16,75,0.995612078093843
+11,"Down",0.536949463282409,0.944774205841167,"Targets predicted for all chemical forms",-0.0104958440848386,"Endocytes",30,"estimated",FALSE,99,16,83,0.995612078093843
+17,"Down",0.551803758772781,0.952942989032678,"Targets predicted for all sulfate and glucuronide conjugates",0.000214885760025416,"PLI",30,"estimated",FALSE,98,16,82,0.995612078093843
+13,"Down",0.565446771673741,0.93717290480886,"Targets predicted for all chemical forms",-0.0044032449251563,"OPC",30,"estimated",FALSE,106,16,90,0.995612078093843
+29,"Up",0.573010021191992,0.777811900018649,"Targets predicted for all sulfate and glucuronide conjugates",0.00468014154872202,"MLI_1",30,"estimated",FALSE,108,16,92,0.995612078093843
+59,"Up",0.578806420803663,0.888156377483414,"Targets predicted for any sulfate or glucuronide conjugate",0.00537599636215724,"Purkinje",30,"estimated",FALSE,105,16,89,0.995612078093843
+89,"Up",0.60536954639558,0.756711932994475,"Targets predicted for any chemical form",0.0111106216490616,"Microglia",30,"estimated",FALSE,105,16,89,0.995612078093843
+90,"Up",0.608276581610921,0.870792003698425,"Targets predicted for any chemical form",0.0181352749504379,"Astrocytes",30,"estimated",FALSE,107,16,91,0.995612078093843
+90,"Down",0.622249520014919,0.777811900018649,"Targets predicted for any chemical form",0.00935880692507861,"MLI_1",30,"estimated",FALSE,108,16,92,0.995612078093843
+8,"Down",0.624847896999239,0.952942989032678,"Targets predicted for all chemical forms",-0.0375548564564321,"PLI",30,"estimated",FALSE,98,16,82,0.995612078093843
+28,"Down",0.63443643244406,0.937569234841031,"Targets predicted for all sulfate and glucuronide conjugates",0.00305425624030924,"Oligodendrocytes",30,"estimated",FALSE,106,16,90,0.995612078093843
+11,"Up",0.638067277622493,0.714148293800628,"Carbonic anhydrase family",-0.00730655248078881,"Bergmann",30,"estimated",FALSE,108,16,92,0.995612078093843
+8,"Up",0.640941065115113,0.93717290480886,"Carbonic anhydrase family",-0.0231176850747456,"OPC",30,"estimated",FALSE,106,16,90,0.995612078093843
+69,"Up",0.678270477381921,0.864040416853643,"Targets predicted for any chemical form",0.00654884640946253,"Golgi",30,"estimated",FALSE,105,16,89,0.995612078093843
+17,"Down",0.68835727636454,0.714148293800628,"Targets predicted for all chemical forms",0.00265538281038663,"Bergmann",30,"estimated",FALSE,108,16,92,0.995612078093843
+73,"Up",0.693557951752625,0.870792003698425,"Targets predicted for any sulfate or glucuronide conjugate",0.0173502023844276,"Astrocytes",30,"estimated",FALSE,107,16,91,0.995612078093843
+3,"Up",0.707780060258656,0.761798820295442,"Targets predicted for all chemical forms",-0.0214278593836511,"Pericytes",30,"estimated",FALSE,91,16,75,0.995612078093843
+55,"Up",0.709605569553677,0.864040416853643,"Targets predicted for any sulfate or glucuronide conjugate",0.00231490152752048,"Golgi",30,"estimated",FALSE,105,16,89,0.995612078093843
+34,"Down",0.714148293800628,0.714148293800628,"Targets predicted for all sulfate and glucuronide conjugates",0.00741619774118266,"Bergmann",30,"estimated",FALSE,108,16,92,0.995612078093843
+69,"Down",0.734253035529859,0.93717290480886,"Targets predicted for any sulfate or glucuronide conjugate",0.0116928890472699,"OPC",30,"estimated",FALSE,106,16,90,0.995612078093843
+9,"Up",0.761798820295442,0.761798820295442,"Targets predicted for all sulfate and glucuronide conjugates",-0.0076029990048547,"Pericytes",30,"estimated",FALSE,91,16,75,0.995612078093843
+14,"Down",0.767898159378109,0.870792003698425,"Targets predicted for all chemical forms",0.00336909618130969,"Astrocytes",30,"estimated",FALSE,107,16,91,0.995612078093843
+22,"Down",0.779763794572275,0.888156377483414,"Targets predicted for all sulfate and glucuronide conjugates",-0.0064879658258696,"Purkinje",30,"estimated",FALSE,105,16,89,0.995612078093843
+22,"Up",0.797402873646656,0.944774205841167,"Targets predicted for all sulfate and glucuronide conjugates",0.0128600709191264,"Endocytes",30,"estimated",FALSE,99,16,83,0.995612078093843
+82,"Up",0.819994206309924,0.944774205841167,"Targets predicted for any chemical form",0.0184743573384896,"Endocytes",30,"estimated",FALSE,99,16,83,0.995612078093843
+8,"Down",0.841490327804188,0.888156377483414,"Carbonic anhydrase family",-0.0602030705614003,"Purkinje",30,"estimated",FALSE,105,16,89,0.995612078093843
+95,"Up",0.844831090988142,0.937569234841031,"Targets predicted for any chemical form",0.0135558124334205,"Oligodendrocytes",30,"estimated",FALSE,106,16,90,0.995612078093843
+7,"Up",0.864040416853643,0.864040416853643,"Carbonic anhydrase family",-0.0434716583461659,"Golgi",30,"estimated",FALSE,105,16,89,0.995612078093843
+71,"Down",0.866033465071635,0.866033465071635,"Targets predicted for any sulfate or glucuronide conjugate",0.010996186038234,"Microglia",30,"estimated",FALSE,105,16,89,0.995612078093843
+7,"Up",0.867066068074243,0.997058913345772,"Carbonic anhydrase family",0.0331679283418015,"MLI_2",30,"estimated",FALSE,98,15,83,0.995612078093843
+26,"Up",0.870792003698425,0.870792003698425,"Targets predicted for all sulfate and glucuronide conjugates",0.00900316725193928,"Astrocytes",30,"estimated",FALSE,107,16,91,0.995612078093843
+11,"Down",0.888156377483414,0.888156377483414,"Targets predicted for all chemical forms",-0.0251458831849794,"Purkinje",30,"estimated",FALSE,105,16,89,0.995612078093843
+47,"Up",0.90138668809936,0.952942989032678,"Targets predicted for any sulfate or glucuronide conjugate",0.00626127753945909,"PLI",30,"estimated",FALSE,98,16,82,0.995612078093843
+26,"Down",0.924705242821779,0.93717290480886,"Targets predicted for all sulfate and glucuronide conjugates",0.0127781808281958,"OPC",30,"estimated",FALSE,106,16,90,0.995612078093843
+88,"Up",0.93717290480886,0.93717290480886,"Targets predicted for any chemical form",0.0145294009890929,"OPC",30,"estimated",FALSE,106,16,90,0.995612078093843
+78,"Down",0.937569234841031,0.937569234841031,"Targets predicted for any sulfate or glucuronide conjugate",0.011159282745747,"Oligodendrocytes",30,"estimated",FALSE,106,16,90,0.995612078093843
+66,"Down",0.944774205841167,0.944774205841167,"Targets predicted for any sulfate or glucuronide conjugate",0.0193074289842145,"Endocytes",30,"estimated",FALSE,99,16,83,0.995612078093843
+56,"Up",0.952942989032678,0.952942989032678,"Targets predicted for any chemical form",0.00768190479384791,"PLI",30,"estimated",FALSE,98,16,82,0.995612078093843
+13,"Up",0.989309841664952,0.989309841664952,"Targets predicted for all chemical forms",-0.00266375488989497,"MLI_1",30,"estimated",FALSE,108,16,92,0.997058913345772
+5,"Down",0.994835793168401,0.994835793168401,"Carbonic anhydrase family",-0.00629662577168161,"UBC",30,"estimated",FALSE,101,15,86,0.997058913345772
+25,"Up",0.997058913345772,0.997058913345772,"Targets predicted for all sulfate and glucuronide conjugates",-0.00237834959444574,"MLI_2",30,"estimated",FALSE,98,15,83,0.997058913345772
+12,"Up",0.0688174085309764,0.344087042654882,"Carbonic anhydrase family",0.01,"Granule",30,"fixed_0.01",FALSE,109,16,93,0.992582005212325
+8,"Up",0.0696473903261274,0.348236951630637,"Carbonic anhydrase family",0.01,"Endocytes",30,"fixed_0.01",FALSE,99,16,83,0.992582005212325
+9,"Up",0.0744221791080308,0.372110895540154,"Carbonic anhydrase family",0.01,"Oligodendrocytes",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+3,"Up",0.0895814013512174,0.447907006756087,"Carbonic anhydrase family",0.01,"Pericytes",30,"fixed_0.01",FALSE,91,16,75,0.992582005212325
+38,"Up",0.205734385786735,0.400203715171182,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Granule",30,"fixed_0.01",FALSE,109,16,93,0.992582005212325
+58,"Up",0.248261758868701,0.551979662015289,"Targets predicted for any chemical form",0.01,"UBC",30,"fixed_0.01",FALSE,101,15,86,0.992582005212325
+28,"Up",0.298248439412628,0.745621098531569,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Pericytes",30,"fixed_0.01",FALSE,91,16,75,0.992582005212325
+13,"Down",0.299903676035306,0.743767550968887,"Targets predicted for all chemical forms",0.01,"Microglia",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+151,"Up",0.316613454344051,0.400203715171182,"Targets predicted for any chemical form",0.01,"Granule",30,"fixed_0.01",FALSE,109,16,93,0.992582005212325
+117,"Up",0.320162972136945,0.400203715171182,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Granule",30,"fixed_0.01",FALSE,109,16,93,0.992582005212325
+48,"Up",0.327033655363175,0.551979662015289,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"UBC",30,"fixed_0.01",FALSE,101,15,86,0.992582005212325
+11,"Down",0.32947586078585,0.815795425092802,"Targets predicted for all chemical forms",0.01,"MLI_2",30,"fixed_0.01",FALSE,98,15,83,0.992582005212325
+5,"Up",0.330946273214819,0.954785685236465,"Carbonic anhydrase family",0.01,"PLI",30,"fixed_0.01",FALSE,98,16,82,0.992582005212325
+17,"Up",0.331187797209173,0.551979662015289,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"UBC",30,"fixed_0.01",FALSE,101,15,86,0.992582005212325
+117,"Up",0.335523620078362,0.722324201133417,"Targets predicted for any chemical form",0.01,"Bergmann",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+8,"Up",0.366891538782756,0.783117363000624,"Carbonic anhydrase family",0.01,"MLI_1",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+9,"Up",0.374809009277114,0.871753088470346,"Carbonic anhydrase family",0.01,"Astrocytes",30,"fixed_0.01",FALSE,107,16,91,0.992582005212325
+79,"Down",0.424862142484369,0.815795425092802,"Targets predicted for any chemical form",0.01,"MLI_2",30,"fixed_0.01",FALSE,98,15,83,0.992582005212325
+93,"Up",0.42813840602671,0.722324201133417,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Bergmann",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+19,"Up",0.431152070943599,0.431152070943599,"Targets predicted for all chemical forms",0.01,"Granule",30,"fixed_0.01",FALSE,109,16,93,0.992582005212325
+8,"Up",0.436641741519102,0.743767550968887,"Carbonic anhydrase family",0.01,"Microglia",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+10,"Down",0.451719748642746,0.867568200271147,"Targets predicted for all chemical forms",0.01,"Golgi",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+74,"Up",0.470657465044083,0.89305316720924,"Targets predicted for any chemical form",0.01,"Purkinje",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+20,"Up",0.472901580303211,0.867568200271147,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Golgi",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+8,"Up",0.479830031772292,0.599787539715365,"Targets predicted for all chemical forms",0.01,"UBC",30,"fixed_0.01",FALSE,101,15,86,0.992582005212325
+63,"Down",0.489477255055681,0.815795425092802,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"MLI_2",30,"fixed_0.01",FALSE,98,15,83,0.992582005212325
+27,"Down",0.501009956525084,0.743767550968887,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Microglia",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+73,"Down",0.506718411767576,0.783117363000624,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"MLI_1",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+90,"Up",0.545638856004768,0.871753088470346,"Targets predicted for any chemical form",0.01,"Astrocytes",30,"fixed_0.01",FALSE,107,16,91,0.992582005212325
+14,"Down",0.549488995129867,0.935863033485906,"Targets predicted for all chemical forms",0.01,"Oligodendrocytes",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+34,"Up",0.552197972391492,0.769811955008922,"Targets predicted for any chemical form",0.01,"Pericytes",30,"fixed_0.01",FALSE,91,16,75,0.992582005212325
+11,"Down",0.554586688860106,0.93531945679779,"Targets predicted for all chemical forms",0.01,"Endocytes",30,"fixed_0.01",FALSE,99,16,83,0.992582005212325
+17,"Down",0.578513922045103,0.954785685236465,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"PLI",30,"fixed_0.01",FALSE,98,16,82,0.992582005212325
+13,"Down",0.58579867766897,0.930735130666681,"Targets predicted for all chemical forms",0.01,"OPC",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+89,"Up",0.595014040775109,0.743767550968887,"Targets predicted for any chemical form",0.01,"Microglia",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+29,"Up",0.595017672726892,0.783117363000624,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"MLI_1",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+59,"Up",0.611668376726746,0.89305316720924,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Purkinje",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+90,"Down",0.626493890400499,0.783117363000624,"Targets predicted for any chemical form",0.01,"MLI_1",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+8,"Down",0.635272837765244,0.954785685236465,"Targets predicted for all chemical forms",0.01,"PLI",30,"fixed_0.01",FALSE,98,16,82,0.992582005212325
+8,"Up",0.651093255064012,0.930735130666681,"Carbonic anhydrase family",0.01,"OPC",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+73,"Up",0.651496671983131,0.871753088470346,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Astrocytes",30,"fixed_0.01",FALSE,107,16,91,0.992582005212325
+11,"Up",0.652809658659348,0.722324201133417,"Carbonic anhydrase family",0.01,"Bergmann",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+28,"Down",0.659658668897565,0.935863033485906,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Oligodendrocytes",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+69,"Up",0.699469786404131,0.867568200271147,"Targets predicted for any chemical form",0.01,"Golgi",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+17,"Down",0.702963338785785,0.722324201133417,"Targets predicted for all chemical forms",0.01,"Bergmann",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+3,"Up",0.709620942162466,0.769811955008922,"Targets predicted for all chemical forms",0.01,"Pericytes",30,"fixed_0.01",FALSE,91,16,75,0.992582005212325
+34,"Down",0.722324201133417,0.722324201133417,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Bergmann",30,"fixed_0.01",FALSE,108,16,92,0.992582005212325
+69,"Down",0.724953503354627,0.930735130666681,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"OPC",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+55,"Up",0.749403776977302,0.867568200271147,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Golgi",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+9,"Up",0.769811955008922,0.769811955008922,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Pericytes",30,"fixed_0.01",FALSE,91,16,75,0.992582005212325
+14,"Down",0.776092046355941,0.871753088470346,"Targets predicted for all chemical forms",0.01,"Astrocytes",30,"fixed_0.01",FALSE,107,16,91,0.992582005212325
+82,"Up",0.788834765104499,0.93531945679779,"Targets predicted for any chemical form",0.01,"Endocytes",30,"fixed_0.01",FALSE,99,16,83,0.992582005212325
+22,"Up",0.79197990652916,0.93531945679779,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Endocytes",30,"fixed_0.01",FALSE,99,16,83,0.992582005212325
+22,"Down",0.798765718253301,0.89305316720924,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Purkinje",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+95,"Up",0.831796087603028,0.935863033485906,"Targets predicted for any chemical form",0.01,"Oligodendrocytes",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+8,"Down",0.846298201145775,0.89305316720924,"Carbonic anhydrase family",0.01,"Purkinje",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+7,"Up",0.858321939729713,0.997351076353033,"Carbonic anhydrase family",0.01,"MLI_2",30,"fixed_0.01",FALSE,98,15,83,0.992582005212325
+71,"Down",0.863001057677202,0.863001057677202,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Microglia",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+7,"Up",0.867568200271147,0.867568200271147,"Carbonic anhydrase family",0.01,"Golgi",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+26,"Up",0.871753088470346,0.871753088470346,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"Astrocytes",30,"fixed_0.01",FALSE,107,16,91,0.992582005212325
+11,"Down",0.89305316720924,0.89305316720924,"Targets predicted for all chemical forms",0.01,"Purkinje",30,"fixed_0.01",FALSE,105,16,89,0.992582005212325
+47,"Up",0.907068355169088,0.954785685236465,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"PLI",30,"fixed_0.01",FALSE,98,16,82,0.992582005212325
+26,"Down",0.922458318612563,0.930735130666681,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"OPC",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+88,"Up",0.930735130666681,0.930735130666681,"Targets predicted for any chemical form",0.01,"OPC",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+66,"Down",0.93531945679779,0.93531945679779,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Endocytes",30,"fixed_0.01",FALSE,99,16,83,0.992582005212325
+78,"Down",0.935863033485906,0.935863033485906,"Targets predicted for any sulfate or glucuronide conjugate",0.01,"Oligodendrocytes",30,"fixed_0.01",FALSE,106,16,90,0.992582005212325
+56,"Up",0.954785685236465,0.954785685236465,"Targets predicted for any chemical form",0.01,"PLI",30,"fixed_0.01",FALSE,98,16,82,0.997351076353033
+13,"Up",0.989873576083982,0.989873576083982,"Targets predicted for all chemical forms",0.01,"MLI_1",30,"fixed_0.01",FALSE,108,16,92,0.997351076353033
+5,"Down",0.994922847374335,0.994922847374335,"Carbonic anhydrase family",0.01,"UBC",30,"fixed_0.01",FALSE,101,15,86,0.997351076353033
+25,"Up",0.997351076353033,0.997351076353033,"Targets predicted for all sulfate and glucuronide conjugates",0.01,"MLI_2",30,"fixed_0.01",FALSE,98,15,83,0.997351076353033

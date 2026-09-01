@@ -1,0 +1,1 @@
+scCODA seeds are 20260828 plus the documented reference/model offsets. CAMERA and propeller steps are deterministic for fixed inputs; the matched-donor pairing is deterministic under the archived nearest-distance rule.

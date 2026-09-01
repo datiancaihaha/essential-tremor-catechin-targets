@@ -1,0 +1,29 @@
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] readxl_1.4.5 edgeR_4.2.2  limma_3.60.6
+
+loaded via a namespace (and not attached):
+ [1] cellranger_1.1.0       lattice_0.22-7         magrittr_2.0.4        
+ [4] glue_1.8.0             tibble_3.3.1           IHW_1.32.0            
+ [7] BiocGenerics_0.50.0    pkgconfig_2.0.3        RobustRankAggreg_1.2.1
+[10] lifecycle_1.0.5        cli_3.6.5              vctrs_0.7.3           
+[13] grid_4.4.1             slam_0.1-56            statmod_1.5.1         
+[16] compiler_4.4.1         lpsymphony_1.32.0      tools_4.4.1           
+[19] fdrtool_1.2.18         pillar_1.11.1          Rcpp_1.1.1            
+[22] locfit_1.5-9.12        rlang_1.1.7           

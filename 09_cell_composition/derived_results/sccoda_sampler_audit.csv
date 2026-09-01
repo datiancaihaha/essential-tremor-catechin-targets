@@ -1,0 +1,13 @@
+analysis_set,requested_reference,reference_cell_type,samples,cell_types,design_rank,design_columns,random_seed,num_results,num_burnin,num_adapt_steps,num_leapfrog_steps,duration_seconds,acceptance_rate,inclusion_probability_threshold,credible_condition_effects,sampler
+all_donors,automatic,Pericytes,109,14,6,6,20260828,20000,5000,4000,10,293.06670784950256,0.474,0.817,3,hmc
+all_donors,OPC,OPC,109,14,6,6,20260829,20000,5000,4000,10,297.0913910865784,0.2493,0.772,1,hmc
+all_donors,PLI,PLI,109,14,6,6,20260830,20000,5000,4000,10,323.83533811569214,0.37795,0.739,1,hmc
+matched_donors,automatic,Pericytes,32,14,6,6,20260928,20000,5000,4000,10,254.7032289505005,0.59805,0.888,1,hmc
+matched_donors,OPC,OPC,32,14,6,6,20260929,20000,5000,4000,10,215.32693123817444,0.38645,0.869,0,hmc
+matched_donors,Endocytes,Endocytes,32,14,6,6,20260930,20000,5000,4000,10,209.12739944458008,0.63075,0.883,1,hmc
+all_donors,automatic,Pericytes,109,14,6,6,20260828,20000,5000,4000,10,289.4539201259613,0.79455,0.841,1,hmc_da
+all_donors,OPC,OPC,109,14,6,6,20260829,20000,5000,4000,10,286.1399781703949,0.5509,0.771,2,hmc_da
+all_donors,PLI,PLI,109,14,6,6,20260830,20000,5000,4000,10,291.817022562027,0.88905,0.62,2,hmc_da
+matched_donors,automatic,Pericytes,32,14,6,6,20260928,20000,5000,4000,10,212.67016458511355,0.9246,0.75,5,hmc_da
+matched_donors,OPC,OPC,32,14,6,6,20260929,20000,5000,4000,10,203.84872364997864,0.78415,0.69,10,hmc_da
+matched_donors,Endocytes,Endocytes,32,14,6,6,20260930,20000,5000,4000,10,195.44231390953064,0.6802,0.852,3,hmc_da

@@ -1,0 +1,11 @@
+"check","observed","expected","pass"
+"Raw-count result keys are unique",1013,1013,TRUE
+"Raw-count P values are complete",1013,1013,TRUE
+"Nominal candidate subset is exact",163,163,TRUE
+"Leave-one-donor-out rows equal 163 x 16",2608,2608,TRUE
+"Leave-one-donor-out keys are unique",2608,2608,TRUE
+"Every nominal candidate has 16 iterations",16,16,TRUE
+"Iteration files are complete",224,224,TRUE
+"Cell-type leave-one-donor-out files are complete",14,14,TRUE
+"Full-transcriptome result files are complete",14,14,TRUE
+"All 14 main models are present",14,14,TRUE

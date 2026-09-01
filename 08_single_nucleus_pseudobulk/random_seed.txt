@@ -1,0 +1,1 @@
+Not applicable. Aggregation, voom/duplicateCorrelation models, edgeR quasi-likelihood models, and leave-one-donor refits are deterministic for fixed inputs.
