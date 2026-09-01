@@ -4,6 +4,7 @@ title: "Catechin-Related Carbonic Anhydrase Genes in Essential Tremor: Microbial
 type: software
 version: 1.0.0
 date-released: 2026-09-02
+doi: "10.5281/zenodo.22236977"
 repository-code: "https://github.com/datiancaihaha/essential-tremor-catechin-targets"
 authors:
   - family-names: Wen

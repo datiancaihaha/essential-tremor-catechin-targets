@@ -8,3 +8,5 @@
 - Chemical database outputs: exact query-derived, nonrestricted records used in the manuscript are included where redistribution is permitted; database terms remain controlling.
 
 The archive contains schemas, code, and nonrestricted derived results. It does not convert third-party access-controlled data into openly redistributable data.
+
+Permanent archive: https://doi.org/10.5281/zenodo.22236977

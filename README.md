@@ -30,3 +30,5 @@ The included derived results permit verification of the reported tables and figu
 ## Release
 
 Version 1.0.0 is the reproducibility archive accompanying the manuscript. The tagged source is available at https://github.com/datiancaihaha/essential-tremor-catechin-targets/releases/tag/v1.0.0.
+
+The permanent Zenodo archive is available at https://doi.org/10.5281/zenodo.22236977.
