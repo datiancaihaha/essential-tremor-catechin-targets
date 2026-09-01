@@ -1,0 +1,1 @@
+Not applicable. Target-list parsing, unions, intersections, and similarity calculations are deterministic.

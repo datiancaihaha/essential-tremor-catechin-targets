@@ -1,0 +1,7 @@
+Run date: 2026-09-02
+R exit status: 0
+Eligible analysis combinations: 14
+Parallel workers: 7
+MR-PRESSO simulations per combination: 10,000
+Analysis-specific seeds: 14 unique seeds derived from fixed base seed 20260902
+Determinism repeat check: PASS

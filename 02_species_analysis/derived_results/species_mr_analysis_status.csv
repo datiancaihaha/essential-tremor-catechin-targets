@@ -1,0 +1,52 @@
+"gwas_accession","taxon_name","tier","sensitivity_model","instruments_before_harmonisation","instruments_after_harmonisation","analysis_status","message"
+"GCST90670409","Faecalibacterium prausnitzii A","study_wide","full",0,0,"no_instruments",NA
+"GCST90670409","Faecalibacterium prausnitzii A","genome_wide","full",1,1,"estimated",NA
+"GCST90670409","Faecalibacterium prausnitzii A","exploratory","full",4,4,"estimated",NA
+"GCST90670412","Faecalibacterium prausnitzii D","study_wide","full",0,0,"no_instruments",NA
+"GCST90670412","Faecalibacterium prausnitzii D","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670412","Faecalibacterium prausnitzii D","exploratory","full",6,6,"estimated",NA
+"GCST90670481","Flavonifractor plautii","study_wide","full",0,0,"no_instruments",NA
+"GCST90670481","Flavonifractor plautii","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670481","Flavonifractor plautii","exploratory","full",7,7,"estimated",NA
+"GCST90670490","Faecalibacterium prausnitzii E","study_wide","full",0,0,"no_instruments",NA
+"GCST90670490","Faecalibacterium prausnitzii E","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670490","Faecalibacterium prausnitzii E","exploratory","full",5,5,"estimated",NA
+"GCST90670538","Faecalibacterium prausnitzii J","study_wide","full",0,0,"no_instruments",NA
+"GCST90670538","Faecalibacterium prausnitzii J","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670538","Faecalibacterium prausnitzii J","exploratory","full",5,5,"estimated",NA
+"GCST90670549","Faecalibacterium sp900758465","study_wide","full",0,0,"no_instruments",NA
+"GCST90670549","Faecalibacterium sp900758465","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670549","Faecalibacterium sp900758465","exploratory","full",10,10,"estimated",NA
+"GCST90670588","Faecalibacterium sp900539945","study_wide","full",0,0,"no_instruments",NA
+"GCST90670588","Faecalibacterium sp900539945","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670588","Faecalibacterium sp900539945","exploratory","full",8,8,"estimated",NA
+"GCST90670612","Faecalibacterium prausnitzii I","study_wide","full",0,0,"no_instruments",NA
+"GCST90670612","Faecalibacterium prausnitzii I","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670612","Faecalibacterium prausnitzii I","exploratory","full",4,4,"estimated",NA
+"GCST90670663","Faecalibacterium prausnitzii","study_wide","full",0,0,"no_instruments",NA
+"GCST90670663","Faecalibacterium prausnitzii","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670663","Faecalibacterium prausnitzii","exploratory","full",4,4,"estimated",NA
+"GCST90670667","Faecalibacterium sp900539885","study_wide","full",0,0,"no_instruments",NA
+"GCST90670667","Faecalibacterium sp900539885","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670667","Faecalibacterium sp900539885","exploratory","full",4,4,"estimated",NA
+"GCST90670780","Faecalibacterium prausnitzii F","study_wide","full",0,0,"no_instruments",NA
+"GCST90670780","Faecalibacterium prausnitzii F","genome_wide","full",0,0,"no_instruments",NA
+"GCST90670780","Faecalibacterium prausnitzii F","exploratory","full",2,2,"estimated",NA
+"GCST90671064","Flavonifractor avistercoris","study_wide","full",0,0,"no_instruments",NA
+"GCST90671064","Flavonifractor avistercoris","genome_wide","full",0,0,"no_instruments",NA
+"GCST90671064","Flavonifractor avistercoris","exploratory","full",7,7,"estimated",NA
+"GCST90671065","Flavonifractor intestinigallinarum","study_wide","full",0,0,"no_instruments",NA
+"GCST90671065","Flavonifractor intestinigallinarum","genome_wide","full",0,0,"no_instruments",NA
+"GCST90671065","Flavonifractor intestinigallinarum","exploratory","full",2,2,"estimated",NA
+"GCST90671121","Gut microbiome species presence (Flavonifractor hMGS.05537, )","study_wide","full",0,0,"no_instruments",NA
+"GCST90671121","Gut microbiome species presence (Flavonifractor hMGS.05537, )","genome_wide","full",0,0,"no_instruments",NA
+"GCST90671121","Gut microbiome species presence (Flavonifractor hMGS.05537, )","exploratory","full",7,7,"estimated",NA
+"GCST90671130","Faecalibacterium longum","study_wide","full",0,0,"no_instruments",NA
+"GCST90671130","Faecalibacterium longum","genome_wide","full",0,0,"no_instruments",NA
+"GCST90671130","Faecalibacterium longum","exploratory","full",9,9,"estimated",NA
+"GCST90671133","Faecalibacterium duncaniae","study_wide","full",0,0,"no_instruments",NA
+"GCST90671133","Faecalibacterium duncaniae","genome_wide","full",0,0,"no_instruments",NA
+"GCST90671133","Faecalibacterium duncaniae","exploratory","full",6,6,"estimated",NA
+"GCST90671143","Faecalibacterium hattorii","study_wide","full",0,0,"no_instruments",NA
+"GCST90671143","Faecalibacterium hattorii","genome_wide","full",0,0,"no_instruments",NA
+"GCST90671143","Faecalibacterium hattorii","exploratory","full",3,3,"estimated",NA

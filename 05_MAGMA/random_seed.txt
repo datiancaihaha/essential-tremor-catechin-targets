@@ -1,0 +1,1 @@
+Not applicable to the reported MAGMA gene and prespecified competitive gene-set statistics; these steps are deterministic for fixed inputs and LD reference.

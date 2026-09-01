@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-08-21T16:46:20.705880+00:00",
+  "isolated_r_library": "D:\\CodexProjects\\ET_MR_Stage0_20260821_v1\\tools\\R_library",
+  "installed_packages": {
+    "TwoSampleMR": "0.7.9",
+    "MRPRESSO": "1.0",
+    "MRMix": "0.1.0",
+    "RadialMR": "1.2.4",
+    "ieugwasr": "1.1.0",
+    "data.table": null,
+    "jsonlite": null
+  },
+  "sources": {
+    "TwoSampleMR": {
+      "repository": "https://github.com/MRCIEU/TwoSampleMR",
+      "tag": "v0.7.9",
+      "tag_commit": "3d119f20d6fc164b0c7f710f5590fee9580f2c7b",
+      "archive": "tools\\R_source_archives\\TwoSampleMR_v0.7.9.zip",
+      "archive_sha256": "7E1455FA22CC8759035F2A05E481AA7B072467EED6E66FF1673071FEF0E4FB82"
+    },
+    "MRPRESSO": {
+      "repository": "https://github.com/rondolab/MR-PRESSO",
+      "commit": "3e3c92d7eda6dce0d1d66077373ec0f7ff4f7e87"
+    },
+    "MRMix": {
+      "repository": "https://github.com/gqi/MRMix",
+      "commit": "56afdb2bc96760842405396f5d3f02e60e305039",
+      "archive": "tools\\R_source_archives\\MRMix_56afdb2.zip",
+      "archive_sha256": "557A0B740B6B13AAB9B7B034CB57E6E3A1E747BE9FDE15ABB3C97625080A42BA"
+    },
+    "RadialMR": {
+      "repository": "https://github.com/WSpiller/RadialMR",
+      "tag": "v1.2.4",
+      "commit": "ac6093932abcd607d8bb0cd4c097447b2155fc9f"
+    }
+  },
+  "notes": {
+    "r_universe_fallback": "Direct r-universe source downloads returned HTTP 403; fixed GitHub sources and CRAN ieugwasr binary were used instead.",
+    "unused_incomplete_clone": "tools/R_sources/TwoSampleMR_incomplete_20260821_2331 is a preserved failed clone and was not used for installation or analysis."
+  }
+}

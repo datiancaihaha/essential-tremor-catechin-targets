@@ -1,0 +1,33 @@
+{
+  "generated_at_utc": "2026-08-22 04:52:45 UTC",
+  "status": "PASS_STAGE5_MR_STEIGER_RAPS_QA",
+  "status_zh": "通过：MR-Steiger患病率敏感性分析及4个重点菌MR-RAPS均完整运行。",
+  "checks": {
+    "four_priority_taxa_present": true,
+    "steiger_three_prevalence_scenarios_per_taxon": true,
+    "steiger_all_values_finite": true,
+    "steiger_snp_audit_complete": true,
+    "mr_raps_four_results": true,
+    "mr_raps_all_values_finite": true,
+    "mr_raps_simple_sensitivity_all_values_finite": true,
+    "nominal_selection_rule_unchanged": true
+  },
+  "results_not_qa_gates": {
+    "all_prevalence_scenarios_support_exposure_to_outcome": true,
+    "all_mr_raps_directions_concordant_with_ivw": true
+  },
+  "parameters": {
+    "et_cases": 16480,
+    "et_controls": 1936173,
+    "et_population_prevalence_sensitivity": [0.0032000000000000002, 0.013299999999999999, 0.0579],
+    "steiger_exposure_r": "TwoSampleMR::get_r_from_bsen",
+    "steiger_binary_outcome_r": "TwoSampleMR::get_r_from_lor",
+    "mr_raps_primary": "mr.raps::mr.raps.overdispersed.robust with Huber loss",
+    "mr_raps_secondary": "mr.raps::mr.raps.simple.robust with Huber loss"
+  },
+  "software": {
+    "R": "R version 4.4.1 (2024-06-14 ucrt)",
+    "TwoSampleMR": "0.7.9",
+    "mr_raps": "0.2"
+  }
+}

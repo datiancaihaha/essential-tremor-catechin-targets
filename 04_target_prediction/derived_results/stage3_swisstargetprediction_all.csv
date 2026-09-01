@@ -1,0 +1,101 @@
+﻿rank,target_name,gene_symbol,uniprot_id,chembl_id,target_class,probability,known_actives_3d,known_actives_2d
+1,Carbonic anhydrase 9,CA9,Q16790,CHEMBL3594,Lyase,0.7945060104466048,254,53
+2,Carbonic anhydrase 2,CA2,P00918,CHEMBL205,Lyase,0.7945060104466048,310,109
+3,Carbonic anhydrase 1,CA1,P00915,CHEMBL261,Lyase,0.7945060104466048,244,94
+4,Carbonic anhydrase 12,CA12,O43570,CHEMBL3242,Lyase,0.7945060104466048,230,34
+5,Islet amyloid polypeptide,IAPP,P10997,CHEMBL1914266,Secreted protein,0.7353078927910675,16,12
+6,Alpha-synuclein,SNCA,P37840,CHEMBL6152,Unclassified protein,0.7007554823454307,65,17
+7,Polyunsaturated fatty acid 5-lipoxygenase,ALOX5,P09917,CHEMBL215,Oxidoreductase,0.6754500305928479,271,204
+8,Estrogen receptor beta,ESR2,Q92731,CHEMBL242,Nuclear receptor,0.6250377001715448,653,279
+9,Transthyretin,TTR,P02766,CHEMBL3194,Secreted protein,0.6169230773241068,64,12
+10,Polyunsaturated fatty acid lipoxygenase ALOX15,ALOX15,P16050,CHEMBL2903,Oxidoreductase,0.6157103104984504,85,41
+11,Insulin-like growth factor 1 receptor,IGF1R,P08069,CHEMBL1957,Kinase,0.6157103104984504,32,16
+12,Aromatase,CYP19A1,P11511,CHEMBL1978,Cytochrome P450,0.6144961034258485,151,206
+13,Polyunsaturated fatty acid lipoxygenase ALOX12,ALOX12,P18054,CHEMBL3687,Enzyme,0.6059574637426774,50,17
+14,Leukotriene B4 receptor 1,LTB4R,Q15722,CHEMBL3911,Family A G protein-coupled receptor,0.604732223904376,5,54
+15,17-beta-hydroxysteroid dehydrogenase type 2,HSD17B2,P37059,CHEMBL2789,Oxidoreductase,0.604732223904376,214,32
+16,17-beta-hydroxysteroid dehydrogenase type 1,HSD17B1,P14061,CHEMBL3181,Oxidoreductase,0.604732223904376,214,66
+17,Transcription factor AP1,N/A,P05412&P01100,CHEMBL2111421,Transcription factor,0.604732223904376,3,4
+18,Transient receptor potential cation channel subfamily A member 1,TRPA1,O75762,CHEMBL6007,Voltage-gated ion channel,0.604732223904376,10,33
+19,Proto-oncogene tyrosine-protein kinase Src,SRC,P12931,CHEMBL267,Kinase,0.5788630597632692,118,14
+20,Estrogen receptor,ESR1,P03372,CHEMBL206,Nuclear receptor,0.5430177312995449,681,387
+21,Acetylcholinesterase,ACHE,P22303,CHEMBL220,Hydrolase,0.5395680201182823,97,250
+22,Vascular endothelial growth factor receptor 2,KDR,P35968,CHEMBL279,Kinase,0.5102891117027843,168,28
+23,Lysine-specific demethylase 6B,KDM6B,O15054,CHEMBL1938211,Eraser,0.5086686443614774,5,1
+24,DNA polymerase alpha catalytic subunit,POLA1,P09884,CHEMBL1828,Transferase,0.5035286174890297,3,15
+25,5-hydroxytryptamine receptor 2B,HTR2B,P41595,CHEMBL1833,Family A G protein-coupled receptor,0.487789139130197,58,41
+26,Sodium-dependent serotonin transporter,SLC6A4,P31645,CHEMBL228,Electrochemical transporter,0.4558481176100541,7,695
+27,Androgen receptor,AR,P10275,CHEMBL1871,Nuclear receptor,0.45285346354386163,179,73
+28,Cytochrome P450 1B1,CYP1B1,Q16678,CHEMBL4878,Cytochrome P450,0.4515830177250226,65,18
+29,Sex hormone-binding globulin,SHBG,P04278,CHEMBL3305,Secreted protein,0.43557839972886103,8,22
+30,Lysine-specific demethylase 4E,KDM4E,B2RXH2,CHEMBL1293226,Eraser,0.4162375128469763,9,3
+31,5-hydroxytryptamine receptor 1A,HTR1A,P08908,CHEMBL214,Family A G protein-coupled receptor,0.41002457406643683,25,190
+32,Aldo-keto reductase family 1 member C3,AKR1C3,P42330,CHEMBL4681,Oxidoreductase,0.3957811763920882,38,64
+33,ALK tyrosine kinase receptor,ALK,Q9UM73,CHEMBL4247,Kinase,0.387860574721523,23,9
+34,M-phase inducer phosphatase 1,CDC25A,P30304,CHEMBL3775,Phosphatase,0.37809998993750626,34,7
+35,Steryl-sulfatase,STS,P08842,CHEMBL3559,Hydrolase,0.3716616267661007,4,171
+36,Tyrosine-protein kinase Fyn,FYN,P06241,CHEMBL1841,Kinase,0.3566495737534414,67,10
+37,Epidermal growth factor receptor,EGFR,P00533,CHEMBL203,Kinase,0.35204661496230877,233,26
+38,Prostaglandin G/H synthase 2,PTGS2,P35354,CHEMBL230,Oxidoreductase,0.3508776154811365,128,67
+39,Steroid hormone receptor ERR1,ESRRA,P11474,CHEMBL3429,Nuclear receptor,0.3439827700325921,30,11
+40,Steroid hormone receptor ERR2,ESRRB,O95718,CHEMBL3751,Nuclear receptor,0.3439827700325921,20,39
+41,Dual specificity protein phosphatase 3,DUSP3,P51452,CHEMBL2635,Phosphatase,0.32554403279988764,20,3
+42,11-beta-hydroxysteroid dehydrogenase 1,HSD11B1,P28845,CHEMBL4235,Oxidoreductase,0.3180083391383369,32,253
+43,Tyrosine-protein kinase Lck,LCK,P06239,CHEMBL258,Kinase,0.3111634713534645,54,11
+44,"3',5'-cyclic-AMP phosphodiesterase 4B",PDE4B,Q07343,CHEMBL275,Phosphodiesterase,0.30745366393296353,5,64
+45,Sodium-dependent noradrenaline transporter,SLC6A2,P23975,CHEMBL222,Electrochemical transporter,0.28964829541530235,11,486
+46,Adenylate cyclase type 10,ADCY10,Q96PN6,CHEMBL5854,Lyase,0.2890084691543159,4,1
+47,Tyrosine-protein phosphatase non-receptor type 1,PTPN1,P18031,CHEMBL335,Phosphatase,0.2824228484440103,287,91
+48,Prostaglandin E synthase,PTGES,O14684,CHEMBL5658,Isomerase,0.2819680600400054,46,52
+49,Sodium-dependent dopamine transporter,SLC6A3,Q01959,CHEMBL238,Electrochemical transporter,0.281279891360314,10,670
+50,5-hydroxytryptamine receptor 2C,HTR2C,P28335,CHEMBL225,Family A G protein-coupled receptor,0.281279891360314,47,71
+51,Substance-K receptor,TACR2,P21452,CHEMBL2327,Family A G protein-coupled receptor,0.281279891360314,3,8
+52,Alpha-2C adrenergic receptor,ADRA2C,P18825,CHEMBL1916,Family A G protein-coupled receptor,0.281279891360314,19,27
+53,Alpha-2B adrenergic receptor,ADRA2B,P18089,CHEMBL1942,Family A G protein-coupled receptor,0.281279891360314,15,20
+54,HSP60/HSP10,N/A,P10809&P61604,CHEMBL4106131,Unclassified protein,0.281279891360314,12,6
+55,Adenosine receptor A3,ADORA3,P0DMS8,CHEMBL256,Family A G protein-coupled receptor,0.281279891360314,40,6
+56,Alpha-2A adrenergic receptor,ADRA2A,P08913,CHEMBL1867,Family A G protein-coupled receptor,0.281279891360314,25,28
+57,Dual specificity mitogen-activated protein kinase kinase 1,MAP2K1,Q02750,CHEMBL3587,Kinase,0.2732034371626091,8,1
+58,Phosphatidylcholine:ceramide cholinephosphotransferase 2,SGMS2,Q8NHU3,CHEMBL3112379,Transferase,0.25594790898972675,4,5
+59,Phosphatidylcholine:ceramide cholinephosphotransferase 1,SGMS1,Q86VZ5,CHEMBL3611965,Transferase,0.25594790898972675,4,5
+60,Solute carrier family 22 member 2,SLC22A2,O15244,CHEMBL1743122,Electrochemical transporter,0.2548352131057521,1,1
+61,17-beta-hydroxysteroid dehydrogenase type 3,HSD17B3,P37058,CHEMBL4234,Oxidoreductase,0.2546439185729698,29,12
+62,Focal adhesion kinase 1,PTK2,Q05397,CHEMBL2695,Kinase,0.25409737723822673,4,3
+63,Cannabinoid receptor 2,CNR2,P34972,CHEMBL253,Family A G protein-coupled receptor,0.2511364956636883,73,403
+64,Aldehyde oxidase,AOX1,Q06278,CHEMBL3257,Oxidoreductase,0.24458839076205818,1,2
+65,Tyrosinase,TYR,P14679,CHEMBL1973,Oxidoreductase,0.2424270139856361,101,28
+66,Carbonic anhydrase 3,CA3,P07451,CHEMBL2885,Lyase,0.23535668766869813,15,5
+67,Oxysterols receptor LXR-alpha,NR1H3,Q13133,CHEMBL2808,Nuclear receptor,0.22919136225286407,2,25
+68,Oxysterols receptor LXR-beta,NR1H2,P55055,CHEMBL4093,Nuclear receptor,0.22919136225286407,1,23
+69,Carbonic anhydrase 6,CA6,P23280,CHEMBL3025,Lyase,0.22271004714148357,30,22
+70,Peroxisome proliferator-activated receptor gamma,PPARG,P37231,CHEMBL235,Nuclear receptor,0.2221110132172988,52,293
+71,Histone deacetylase 6,HDAC6,Q9UBN7,CHEMBL1865,Eraser,0.22059732008771582,62,59
+72,Farnesyl pyrophosphate synthase,FDPS,P14324,CHEMBL1782,Transferase,0.21858037115229353,177,21
+73,Prostaglandin E2 receptor EP2 subtype,PTGER2,P43116,CHEMBL1881,Family A G protein-coupled receptor,0.21659071656338816,2,44
+74,Carbonic anhydrase 4,CA4,P22748,CHEMBL3729,Lyase,0.21052837011060072,49,27
+75,Induced myeloid leukemia cell differentiation protein Mcl-1,MCL1,Q07820,CHEMBL4361,Other cytosolic protein,0.20796163423921377,136,29
+76,Disabled homolog 2-interacting protein,DAB2IP,Q5VWQ8,CHEMBL4523330,Unclassified protein,0.20562143872932806,2,1
+77,Carbonic anhydrase 7,CA7,P43166,CHEMBL2326,Lyase,0.20511889829438687,79,36
+78,NAD-dependent protein deacetylase sirtuin-1,SIRT1,Q96EB6,CHEMBL4506,Eraser,0.20395504297505063,24,6
+79,Prostaglandin G/H synthase 1,PTGS1,P23219,CHEMBL221,Oxidoreductase,0.19374114303443868,55,53
+80,Amyloid-beta precursor protein,APP,P05067,CHEMBL2487,Membrane receptor,0.18981516788192893,152,32
+81,Cannabinoid receptor 1,CNR1,P21554,CHEMBL218,Family A G protein-coupled receptor,0.18507492157969924,41,271
+82,Prostaglandin F2-alpha receptor,PTGFR,P43088,CHEMBL1987,Family A G protein-coupled receptor,0.1834282086907237,1,22
+83,Amine oxidase [flavin-containing] A,MAOA,P21397,CHEMBL1951,Oxidoreductase,0.1788842031496872,178,85
+84,Amine oxidase [flavin-containing] B,MAOB,P27338,CHEMBL2039,Oxidoreductase,0.1768051144777013,257,211
+85,Monocarboxylate transporter 1,SLC16A1,P53985,CHEMBL4360,Electrochemical transporter,0.17572567884705004,3,2
+86,Methylcytosine dioxygenase TET1,TET1,Q8NFU7,CHEMBL4523402,Oxidoreductase,0.16870711746976874,3,2
+87,Methylcytosine dioxygenase TET2,TET2,Q6N021,CHEMBL4523344,Oxidoreductase,0.16870711746976874,3,1
+88,Methylcytosine dioxygenase TET3,TET3,O43151,CHEMBL4879414,Oxidoreductase,0.16870711746976874,3,3
+89,Kinesin-like protein KIF11,KIF11,P52732,CHEMBL4581,Other cytosolic protein,0.16835843474002696,5,41
+90,Bile acid receptor,NR1H4,Q96RI1,CHEMBL2047,Nuclear receptor,0.16428252518108513,10,34
+91,Glucocorticoid receptor,NR3C1,P04150,CHEMBL2034,Nuclear receptor,0.1583717175908188,5,126
+92,"3',5'-cyclic-AMP phosphodiesterase 4D",PDE4D,Q08499,CHEMBL288,Phosphodiesterase,0.15385955981142646,45,42
+93,Cyclin-dependent kinase 1,CDK1,P06493,CHEMBL308,Kinase,0.15323658435074766,87,3
+94,DNA repair nuclease/redox regulator APEX1,APEX1,P27695,CHEMBL5619,Enzyme,0.15097262681621335,12,2
+95,Histone acetyltransferase KAT2B,KAT2B,Q92831,CHEMBL5500,Writer,0.1496737825229705,6,6
+96,Cytochrome P450 1A2,CYP1A2,P05177,CHEMBL3356,Cytochrome P450,0.1461688841950639,8,3
+97,Cholinesterase,BCHE,P06276,CHEMBL1914,Hydrolase,0.14242812211276284,44,37
+98,Prostaglandin E2 receptor EP1 subtype,PTGER1,P34995,CHEMBL1811,Family A G protein-coupled receptor,0.1401681666350022,4,12
+99,Toll-like receptor 4,TLR4,O00206,CHEMBL5255,Toll-like and Il-1 receptors,0.13785269977717637,5,5
+100,Collagenase 3,MMP13,P45452,CHEMBL280,Protease,0.1334189085601384,22,33

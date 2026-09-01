@@ -1,0 +1,1 @@
+Primary seed base: 20260821. The core MR script uses seed_base plus the taxon index; MR-PRESSO uses the same seed base plus the analysis index.

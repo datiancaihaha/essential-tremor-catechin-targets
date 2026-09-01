@@ -1,0 +1,40 @@
+{
+  "status": "PASS_CORE_MR_EXECUTION",
+  "status_zh": "i",
+  "generated_at_utc": "2026-08-21 16:10:30 UTC",
+  "analysis_seed": 20260821,
+  "input": {
+    "path": "D:/CodexProjects/ET_MR_Stage0_20260821_v1/outputs/stage1_clumped_independent_ivs.csv",
+    "selected_iv_rows": 2153,
+    "taxa": 211,
+    "min_iv_per_taxon": 3,
+    "max_iv_per_taxon": 20
+  },
+  "specification": {
+    "primary_method": "TwoSampleMR::mr_ivw (multiplicative random effects with under-dispersion correction)",
+    "sensitivity_methods": ["TwoSampleMR::mr_weighted_median", "TwoSampleMR::mr_egger_regression", "TwoSampleMR::mr_weighted_mode"],
+    "bootstrap_repetitions": 1000,
+    "weighted_mode_phi": 1,
+    "multiplicity_family": "211 IVW primary p-values",
+    "multiplicity_method": "Benjamini-Hochberg FDR",
+    "fdr_threshold": 0.05,
+    "nominal_threshold": 0.05
+  },
+  "results": {
+    "method_rows": 844,
+    "method_failed_rows": 0,
+    "ivw_rows": 211,
+    "fdr_significant_taxa": 0,
+    "nominal_ivw_taxa": 10,
+    "nominal_only_taxa": 10,
+    "loo_rows": 2153,
+    "loo_failed_rows": 0,
+    "taxa_with_any_loo_direction_flip": 83
+  },
+  "software": {
+    "R": "R version 4.4.2 (2024-10-31 ucrt)",
+    "TwoSampleMR": "0.7.9",
+    "data_table": "1.18.2.1",
+    "jsonlite": "2.0.0"
+  }
+}

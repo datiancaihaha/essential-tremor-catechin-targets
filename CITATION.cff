@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the accompanying manuscript."
-title: "Code for Gut Microbial Genetics Prioritize Catechin-Related Cerebellar Targets in Essential Tremor"
+message: "If you use this archive, please cite the associated manuscript and archived software release."
+title: "Catechin-Related Carbonic Anhydrase Genes in Essential Tremor: Microbial Genetic and Cerebellar Evidence"
 type: software
 version: 1.0.0
-date-released: 2026-08-25
+date-released: 2026-09-02
+repository-code: "https://github.com/datiancaihaha/essential-tremor-catechin-targets"
 authors:
   - family-names: Wen
     given-names: Heli
@@ -12,4 +13,3 @@ authors:
   - family-names: Chen
     given-names: Feichi
     orcid: "https://orcid.org/0009-0006-2253-6035"
-repository-code: "https://github.com/datiancaihaha/essential-tremor-catechin-targets"

@@ -1,0 +1,57 @@
+{
+  "Table": {
+    "Columns": {
+      "Column": [
+        "AID",
+        "Panel Member ID",
+        "SID",
+        "CID",
+        "Activity Outcome",
+        "Target Accession",
+        "Target GeneID",
+        "Activity Value [uM]",
+        "Activity Name",
+        "Assay Name",
+        "Assay Type",
+        "PubMed ID",
+        "RNAi"
+      ]
+    },
+    "Row": [
+      {
+        "Cell": [
+          "251967",
+          "",
+          "103443494",
+          "152432",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Percent inhibition of growth of human colon adenocarcinoma cells, HT-29 cells, at 50 uM concentration; NE=No effect",
+          "Other",
+          "15686878",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "252043",
+          "",
+          "103443494",
+          "152432",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Percent inhibition of growth of human esophageal squamous cell carcinoma cells, KYSE150 cells, at 50 uM concentration (Range=20-40%)",
+          "Other",
+          "15686878",
+          ""
+        ]
+      }
+    ]
+  }
+}

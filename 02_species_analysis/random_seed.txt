@@ -1,0 +1,7 @@
+Species MR-PRESSO analyses used 10,000 simulation draws. The fixed base seed was
+20260902. A deterministic analysis-specific seed was derived from the GWAS
+accession, instrument tier, and sensitivity-model label; the exact seed and RNG
+kind are recorded in species_mr_presso.csv for every estimable analysis. The
+first eligible analysis was repeated after the parallel run, and the full
+recorded result row was identical (see species_mr_presso_determinism_check.csv).
+Primary IVW and other non-simulation estimators are deterministic.

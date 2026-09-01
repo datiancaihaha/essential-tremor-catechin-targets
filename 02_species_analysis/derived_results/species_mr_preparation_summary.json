@@ -1,0 +1,16 @@
+{
+  "species_gwas_files": 17,
+  "species_gwas_integrity_pass": 17,
+  "variants_p_lt_5e_6_f_gt_10": 902,
+  "independent_instruments_p_lt_5e_6": 133,
+  "independent_instruments_p_lt_5e_8": 4,
+  "independent_instruments_p_lt_5_4e_11": 1,
+  "unique_instrument_rsids": 133,
+  "unique_et_outcome_rsids": 116,
+  "standard_allele_matches": 93,
+  "ld_reference": "1000 Genomes Project phase 3 European subset",
+  "clumping_r2": 0.001,
+  "clumping_window_kb": 10000,
+  "candidate_result_threshold": "nominal P < 0.05",
+  "bh_fdr_role": "supplementary evidence strength only"
+}

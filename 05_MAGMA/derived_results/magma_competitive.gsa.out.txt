@@ -1,0 +1,10 @@
+# MEAN_SAMPLE_SIZE = 72297
+# TOTAL_GENES = 18273
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Candidate_target_universe             SET      97  -0.00016659  -1.2106e-05     0.097725      0.50068 Candidate_target_universe
+SwissTargetPrediction                 SET      91   -0.0038561  -0.00027145      0.10082      0.51525 SwissTargetPrediction
+Similarity_Ensemble_Approach          SET       6     0.051243   0.00092842      0.37629      0.44584 Similarity_Ensemble_Approach
+Circulating_conjugate_target...       SET     144      0.06502    0.0057494     0.073963      0.18968 Circulating_conjugate_target_universe
+Carbonic_anhydrase_family             SET      14      0.45737     0.012655      0.27597     0.048737 Carbonic_anhydrase_family

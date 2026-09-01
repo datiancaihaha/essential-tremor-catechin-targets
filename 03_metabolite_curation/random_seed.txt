@@ -1,0 +1,1 @@
+Not applicable. Literature curation and identifier mapping are deterministic given the archived source records.

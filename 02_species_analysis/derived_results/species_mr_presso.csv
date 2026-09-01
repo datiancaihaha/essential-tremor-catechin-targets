@@ -1,0 +1,15 @@
+"gwas_accession","taxon_name","tier","sensitivity_model","nsnp","rng_seed","rng_kind","nb_distribution","global_rss_observed","global_pvalue","outlier_count","distortion_pvalue","analysis_status","error_message"
+"GCST90670409","Faecalibacterium prausnitzii A","exploratory","full",4,20350021,"Mersenne-Twister;Inversion;Rejection",10000,1.63312365982344,"0.8275",0,NA,"estimated",NA
+"GCST90670412","Faecalibacterium prausnitzii D","exploratory","full",6,20349846,"Mersenne-Twister;Inversion;Rejection",10000,2.62280101101198,"0.879",0,NA,"estimated",NA
+"GCST90670481","Flavonifractor plautii","exploratory","full",7,20350013,"Mersenne-Twister;Inversion;Rejection",10000,4.32809866434859,"0.797",0,NA,"estimated",NA
+"GCST90670490","Faecalibacterium prausnitzii E","exploratory","full",5,20350012,"Mersenne-Twister;Inversion;Rejection",10000,7.29855408008311,"0.3665",0,NA,"estimated",NA
+"GCST90670538","Faecalibacterium prausnitzii J","exploratory","full",5,20350103,"Mersenne-Twister;Inversion;Rejection",10000,11.2778548117851,"0.1893",0,NA,"estimated",NA
+"GCST90670549","Faecalibacterium sp900758465","exploratory","full",10,20350160,"Mersenne-Twister;Inversion;Rejection",10000,5.46639698732444,"0.8828",0,NA,"estimated",NA
+"GCST90670588","Faecalibacterium sp900539945","exploratory","full",8,20350243,"Mersenne-Twister;Inversion;Rejection",10000,7.23637340467779,"0.6096",0,NA,"estimated",NA
+"GCST90670612","Faecalibacterium prausnitzii I","exploratory","full",4,20349900,"Mersenne-Twister;Inversion;Rejection",10000,5.40716611019641,"0.5071",0,NA,"estimated",NA
+"GCST90670663","Faecalibacterium prausnitzii","exploratory","full",4,20350069,"Mersenne-Twister;Inversion;Rejection",10000,2.81966532849478,"0.7165",0,NA,"estimated",NA
+"GCST90670667","Faecalibacterium sp900539885","exploratory","full",4,20350185,"Mersenne-Twister;Inversion;Rejection",10000,8.79483945110295,"0.2786",0,NA,"estimated",NA
+"GCST90671064","Flavonifractor avistercoris","exploratory","full",7,20349962,"Mersenne-Twister;Inversion;Rejection",10000,7.44146403359944,"0.5009",0,NA,"estimated",NA
+"GCST90671121","Gut microbiome species presence (Flavonifractor hMGS.05537, )","exploratory","full",7,20349790,"Mersenne-Twister;Inversion;Rejection",10000,10.8367825205901,"0.2591",0,NA,"estimated",NA
+"GCST90671130","Faecalibacterium longum","exploratory","full",9,20349789,"Mersenne-Twister;Inversion;Rejection",10000,5.30728755814053,"0.8408",0,NA,"estimated",NA
+"GCST90671133","Faecalibacterium duncaniae","exploratory","full",6,20349876,"Mersenne-Twister;Inversion;Rejection",10000,8.15060390740381,"0.3699",0,NA,"estimated",NA

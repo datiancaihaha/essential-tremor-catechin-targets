@@ -1,0 +1,8 @@
+{
+  "getLindsByUniprotResponse" : {
+    "bdb.smile" : "C1CC(=O)O[C@H]1CC2=CC(=C(C=C2)O)O",
+    "bdb.inchi" : null,
+    "bdb.hit" : "0",
+    "bdb.affinities" : [ ]
+  }
+}

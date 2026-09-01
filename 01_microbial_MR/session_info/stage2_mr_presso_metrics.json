@@ -1,0 +1,26 @@
+{
+  "status": "PASS_MR_PRESSO_EXECUTION",
+  "status_zh": "i",
+  "generated_at_utc": "2026-08-21 16:34:38 UTC",
+  "specification": {
+    "package": "MRPRESSO",
+    "package_version": "1.0",
+    "nb_distribution": 1000,
+    "significance_threshold": 0.05,
+    "seed_base": 20260821,
+    "requested_workers": 10
+  },
+  "results": {
+    "taxa": 211,
+    "applicable_taxa": 207,
+    "not_applicable_taxa": 4,
+    "error_taxa": 0,
+    "global_test_significant_taxa": 24,
+    "taxa_with_outliers": 19,
+    "outlier_rows": 23
+  },
+  "software": {
+    "R": "R version 4.4.2 (2024-10-31 ucrt)",
+    "MRPRESSO": "1.0"
+  }
+}

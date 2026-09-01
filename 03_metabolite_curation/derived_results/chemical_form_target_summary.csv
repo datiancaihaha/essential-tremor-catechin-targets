@@ -1,0 +1,9 @@
+﻿record_id,valid_unique_gene_count,CA1_predicted,CA2_predicted,CA3_predicted,CA9_predicted,CA12_predicted
+PROJECT_ACID,98,True,True,True,True,True
+LACTONE_UNSPECIFIED,97,True,True,True,True,True
+LACTONE_5R,96,True,True,True,True,True
+LACTONE_HYDROLYSIS_ACID,97,True,True,False,True,True
+LACTONE_3_SULFATE,97,True,True,True,True,True
+LACTONE_4_SULFATE,97,True,True,True,True,True
+LACTONE_3_GLUCURONIDE,96,True,True,False,True,True
+LACTONE_4_GLUCURONIDE,96,True,True,False,True,True

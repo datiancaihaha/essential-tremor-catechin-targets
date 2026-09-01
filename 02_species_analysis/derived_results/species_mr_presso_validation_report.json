@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "historical_rows": 14,
+  "seeded_rows": 14,
+  "shared_analysis_keys": 14,
+  "all_seeded_rows_estimated": true,
+  "all_seeded_rows_use_10000_simulations": true,
+  "unique_seed_count": 14,
+  "determinism_repeat_pass": true,
+  "historical_and_seeded_status_match": true,
+  "historical_and_seeded_outlier_counts_match": true,
+  "all_historical_global_tests_p_gt_0_05": true,
+  "all_seeded_global_tests_p_gt_0_05": true,
+  "maximum_absolute_global_pvalue_difference": 0.010299999999999976,
+  "harmonized_input_sha256_matches_historical": true
+}

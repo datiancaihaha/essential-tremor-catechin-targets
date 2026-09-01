@@ -1,0 +1,40 @@
+{
+  "Table": {
+    "Columns": {
+      "Column": [
+        "AID",
+        "Panel Member ID",
+        "SID",
+        "CID",
+        "Activity Outcome",
+        "Target Accession",
+        "Target GeneID",
+        "Activity Value [uM]",
+        "Activity Name",
+        "Assay Name",
+        "Assay Type",
+        "PubMed ID",
+        "RNAi"
+      ]
+    },
+    "Row": [
+      {
+        "Cell": [
+          "1915615",
+          "",
+          "482088912",
+          "45093080",
+          "Unspecified",
+          "",
+          "",
+          "27",
+          "IC50",
+          "Inhibition of alpha glucosidase (unknown origin) using p-nitrophenyl-a-D-glucopyranoside as substrate incubated for 20 mins by UV based microplate reading method",
+          "Confirmatory",
+          "33148492",
+          ""
+        ]
+      }
+    ]
+  }
+}

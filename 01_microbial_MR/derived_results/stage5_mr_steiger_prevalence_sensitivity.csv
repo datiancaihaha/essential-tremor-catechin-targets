@@ -1,0 +1,13 @@
+bac,taxon_name,nsnp,et_population_prevalence,prevalence_scenario,snp_r2_exposure,snp_r2_outcome,r2_exposure_to_outcome_ratio,correct_causal_direction,steiger_p_value,interpretation_zh
+genus.Faecalibacterium.id.2057,Faecalibacterium,9,0.0032,all_age_meta_analysis_0.32pct,0.0201022568872907,0.000189895007518399,105.859849345134,TRUE,2.38145465209626e-51,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Faecalibacterium.id.2057,Faecalibacterium,9,0.0133,all_age_meta_analysis_1.33pct,0.0201022568872907,0.000189827601536159,105.897439174364,TRUE,2.3711661242046e-51,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Faecalibacterium.id.2057,Faecalibacterium,9,0.0579,age_65plus_meta_analysis_5.79pct,0.0201022568872907,0.000189529852249603,106.063802871628,TRUE,2.32622463270894e-51,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Flavonifractor.id.2059,Flavonifractor,4,0.0032,all_age_meta_analysis_0.32pct,0.00894541803396875,0.000130465690977356,68.5652907439192,TRUE,9.51915333173968e-18,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Flavonifractor.id.2059,Flavonifractor,4,0.0133,all_age_meta_analysis_1.33pct,0.00894541803396875,0.000130492608778483,68.5511472082992,TRUE,9.52918532223461e-18,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Flavonifractor.id.2059,Flavonifractor,4,0.0579,age_65plus_meta_analysis_5.79pct,0.00894541803396875,0.000130611417987533,68.4887904273624,TRUE,9.57357669703096e-18,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.RuminococcaceaeUCG011.id.11368,RuminococcaceaeUCG011,8,0.0032,all_age_meta_analysis_0.32pct,0.0498694412686245,0.000228496118568324,218.250715071612,TRUE,3.07309137238254e-37,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.RuminococcaceaeUCG011.id.11368,RuminococcaceaeUCG011,8,0.0133,all_age_meta_analysis_1.33pct,0.0498694412686245,0.000228517670918862,218.230131035824,TRUE,3.07478239514933e-37,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.RuminococcaceaeUCG011.id.11368,RuminococcaceaeUCG011,8,0.0579,age_65plus_meta_analysis_5.79pct,0.0498694412686245,0.000228612757038542,218.139363326155,TRUE,3.08225305835951e-37,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Methanobrevibacter.id.123,Methanobrevibacter,6,0.0032,all_age_meta_analysis_0.32pct,0.0366916713727737,0.000222571562691176,164.853366392024,TRUE,4.91162049418988e-26,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Methanobrevibacter.id.123,Methanobrevibacter,6,0.0133,all_age_meta_analysis_1.33pct,0.0366916713727737,0.00022259456151761,164.836333478304,TRUE,4.91399743721274e-26,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致
+genus.Methanobrevibacter.id.123,Methanobrevibacter,6,0.0579,age_65plus_meta_analysis_5.79pct,0.0366916713727737,0.000222696004030285,164.761247210273,TRUE,4.92449372983248e-26,工具变量解释的菌群方差大于ET责任度方差，方向与菌群到ET一致

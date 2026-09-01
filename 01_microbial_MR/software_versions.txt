@@ -1,0 +1,1 @@
+R 4.4.2; TwoSampleMR 0.7.9; MRPRESSO 1.0. See session_info for captured provenance.
