@@ -1,0 +1,9 @@
+{
+  "cell_type_count": 8,
+  "gene_count_requested": 4,
+  "total_ca_cis_eqtl_rows": 39440,
+  "gene_celltype_combinations_with_results": 17,
+  "gene_celltype_combinations_with_within_gene_bonferroni_p_lt_0_05": 2,
+  "note": "The within-gene Bonferroni value is a screening diagnostic, not the source study's permutation-based eGene q-value.",
+  "status_zh": "完成"
+}

@@ -1,0 +1,48 @@
+{
+  "method": "coloc.abf",
+  "method_reference": "Giambartolomei et al. PLoS Genetics 2014; doi:10.1371/journal.pgen.1004383",
+  "implementation_reference": "Castonguay et al. Zenodo 20404733, ET.coloc_PRK.R",
+  "tested_gene_celltype_pairs": 2,
+  "p12_sensitivity_values": [9.9999999999999995e-07, 5.0000000000000004e-06, 1.0000000000000001e-05, 5.0000000000000002e-05],
+  "default_p12": 1.0000000000000001e-05,
+  "strong_colocalization_threshold": 0.80000000000000004,
+  "default_results": [
+    {
+      "cell_type": "Granule",
+      "gene": "CA3",
+      "p1": 0.0001,
+      "p2": 0.0001,
+      "p12": 1.0000000000000001e-05,
+      "nsnps": 1481,
+      "PPH0": 0.007959730780891584,
+      "PPH1": 0.46141282581010634,
+      "PPH2": 0.0018970806793637506,
+      "PPH3": 0.10955154521203753,
+      "PPH4": 0.41917881751760094,
+      "top_shared_variant": "chr8:85081986_C_T",
+      "top_shared_variant_PPH4": 0.54018223013230293,
+      "evidence_gate_code": "NO_SUPPORTIVE_COLOCATION",
+      "method_reference": "Giambartolomei et al. PLoS Genetics 2014; doi:10.1371/journal.pgen.1004383",
+      "implementation_reference": "Castonguay et al. Zenodo 20404733, ET.coloc_PRK.R"
+    },
+    {
+      "cell_type": "Oligodendrocytes",
+      "gene": "CA3",
+      "p1": 0.0001,
+      "p2": 0.0001,
+      "p12": 1.0000000000000001e-05,
+      "nsnps": 1481,
+      "PPH0": 0.0096875317042048655,
+      "PPH1": 0.56157067390933468,
+      "PPH2": 0.0030150607414313199,
+      "PPH3": 0.174527035268147,
+      "PPH4": 0.25119969837688189,
+      "top_shared_variant": "chr8:85021394_A_G",
+      "top_shared_variant_PPH4": 0.1220963300824849,
+      "evidence_gate_code": "NO_SUPPORTIVE_COLOCATION",
+      "method_reference": "Giambartolomei et al. PLoS Genetics 2014; doi:10.1371/journal.pgen.1004383",
+      "implementation_reference": "Castonguay et al. Zenodo 20404733, ET.coloc_PRK.R"
+    }
+  ],
+  "boundary": "coloc.abf assumes one causal variant per trait in the region and is reported as a sensitivity analysis because the external-LD SuSiE diagnostic did not pass."
+}

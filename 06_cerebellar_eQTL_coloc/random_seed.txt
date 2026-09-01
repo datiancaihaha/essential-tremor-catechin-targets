@@ -1,0 +1,1 @@
+Not applicable. cis-eQTL filtering and approximate-Bayes-factor colocalization are deterministic for fixed inputs and priors.

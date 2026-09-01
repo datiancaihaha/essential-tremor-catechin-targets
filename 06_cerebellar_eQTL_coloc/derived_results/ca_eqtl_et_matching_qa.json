@@ -1,0 +1,12 @@
+{
+  "et_region_variant_count": 4971,
+  "eqtl_ca_variant_count": 39440,
+  "matched_coloc_row_count": 23665,
+  "gene_celltype_groups": 17,
+  "groups_with_at_least_50_shared_variants": 17,
+  "matching_rules": [
+    "unique rsID",
+    "exact GRCh38 position/reference/alternate"
+  ],
+  "status_zh": "完成"
+}
