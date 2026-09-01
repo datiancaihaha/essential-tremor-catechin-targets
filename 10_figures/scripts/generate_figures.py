@@ -13,7 +13,7 @@ from matplotlib.path import Path as MplPath
 from matplotlib.ticker import NullFormatter
 import numpy as np
 import pandas as pd
-from PIL import Image, ImageOps
+from PIL import Image, ImageFilter, ImageOps
 
 from figure_style import (
     MM,
@@ -26,10 +26,10 @@ from figure_style import (
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "data"
-ASSETS = ROOT / "assets"
-FORMAL = ROOT / "output"
-REGISTRY = ROOT / "figure_documentation"
+SRC = ROOT / "09_source_data"
+ASSETS = ROOT / "10_assets"
+FORMAL = ROOT
+REGISTRY = ROOT / "06_figure_documentation"
 FIG_WIDTH_MM = 183
 
 mpl.rcParams.update({"svg.fonttype": "none", "pdf.fonttype": 42})
@@ -48,6 +48,7 @@ def save_formal(fig, stem: Path, dpi: int = 600) -> dict:
     fig.savefig(
         pdf,
         format="pdf",
+        dpi=dpi,
         bbox_inches=None,
         facecolor="white",
         metadata={"Creator": "", "Producer": ""},
@@ -90,7 +91,7 @@ def short_taxon(value: str) -> str:
         "LachnospiraceaeUCG001": "Lachnospiraceae UCG-001",
         "RuminococcaceaeUCG011": "Ruminococcaceae UCG-011",
         "Prevotella7": "Prevotella 7",
-        "Methanobacteria": "Methanobacteria lineage",
+        "Methanobacteria": "Methanobacteria",
     }
     return replacements.get(value, value)
 
@@ -155,13 +156,20 @@ def _cell_abbreviation(value: str) -> str:
     return lookup.get(str(value), str(value)[:4].upper())
 
 
-def _load_structure(path: Path):
-    image = Image.open(path).convert("L")
-    return ImageOps.autocontrast(image)
+def _load_structure(path: Path, minimum_pixels: int = 800):
+    image = ImageOps.autocontrast(Image.open(path).convert("L"))
+    if min(image.size) < minimum_pixels:
+        scale = minimum_pixels / min(image.size)
+        image = image.resize(
+            (round(image.width * scale), round(image.height * scale)),
+            Image.Resampling.LANCZOS,
+        )
+    image = image.filter(ImageFilter.MinFilter(3))
+    return image
 
 
 def _structure(ax, path: Path, title: str, subtitle: str, title_size: float = 7.2) -> None:
-    ax.imshow(_load_structure(path), cmap="gray", aspect="equal")
+    ax.imshow(_load_structure(path), cmap="gray", aspect="equal", interpolation="lanczos", resample=True)
     ax.set_axis_off()
     ax.text(0.5, -0.04, title, transform=ax.transAxes, ha="center", va="top",
             fontsize=title_size, linespacing=0.92)
@@ -244,7 +252,7 @@ def figure1(d, c):
     mr_labels = [short_taxon(value) for value in mr.taxon_name]
     ax_mr.set_yticks(y, mr_labels)
     for tick, label in zip(ax_mr.get_yticklabels(), mr_labels):
-        tick.set_fontstyle("normal" if label == "Methanobacteria lineage" else "italic")
+        tick.set_fontstyle("normal" if label == "Methanobacteria" else "italic")
     ax_mr.tick_params(axis="y", labelsize=6.1, length=0, pad=3)
     ax_mr.tick_params(axis="x", labelsize=6.1)
     ax_mr.set_xlabel("Odds ratio for essential tremor (95% CI)", fontsize=6.5, labelpad=2)
@@ -273,7 +281,7 @@ def figure1(d, c):
     canvas.text(0.724, 0.518, "Related products", fontsize=6.0, ha="center", va="center")
 
     ax_structure = fig.add_axes([0.690, 0.650, 0.115, 0.105])
-    ax_structure.imshow(_load_structure(ASSETS / "PubChem_CID49831816.png"), cmap="gray", aspect="equal")
+    ax_structure.imshow(_load_structure(ASSETS / "PubChem_CID49831816_800.png"), cmap="gray", aspect="equal")
     ax_structure.set_axis_off()
     canvas.text(0.748, 0.634, "5-(3,4-dihydroxyphenyl)\npentanoic acid", fontsize=6.0,
                 ha="center", va="top", linespacing=1.05)
@@ -363,7 +371,7 @@ def figure2(d, c):
     labels = [short_taxon(x) for x in mr.taxon_name]
     ax.set_yticks(y, labels=labels)
     for tick, label in zip(ax.get_yticklabels(), labels):
-        tick.set_fontstyle("normal" if label == "Methanobacteria lineage" else "italic")
+        tick.set_fontstyle("normal" if label == "Methanobacteria" else "italic")
     ax.set_xscale("log"); ax.set_xlim(0.58, 1.50)
     ax.set_xticks([0.6, 0.7, 0.8, 0.9, 1.0, 1.2, 1.4], ["0.6", "0.7", "0.8", "0.9", "1.0", "1.2", "1.4"])
     ax.xaxis.set_minor_formatter(NullFormatter())
@@ -495,7 +503,7 @@ def figure2(d, c):
     ax.set_xticks(range(6), col_labels); ax.tick_params(axis="x", top=True, labeltop=True, bottom=False, labelbottom=False, length=0)
     ax.set_yticks(range(8), rows); ax.tick_params(axis="y", length=0)
     for tick, label in zip(ax.get_yticklabels(), rows):
-        tick.set_fontstyle("normal" if label == "Methanobacteria lineage" else "italic")
+        tick.set_fontstyle("normal" if label == "Methanobacteria" else "italic")
     ax.spines[:].set_visible(False)
     ax.legend(handles=[Line2D([], [], marker="o", ls="", mfc=c["support"], mec="black", label="Evidence present"),
                        Line2D([], [], marker="o", ls="", mfc="white", mec=c["support"], label="Correlational association")],
@@ -508,42 +516,35 @@ def figure3(d, c):
     gs = fig.add_gridspec(3, 2, height_ratios=[0.72, 0.50, 1.18], width_ratios=[1.0, 1.0],
                           hspace=0.18, wspace=0.35, left=0.075, right=0.985, top=0.96, bottom=0.055)
 
-    axbg = fig.add_subplot(gs[0, :]); axbg.set_axis_off(); _panel(axbg, "A", "Microbial associations and compound identity", -0.055, 1.02)
-    axbg.text(0.055, 0.69, "Faecalibacterium", transform=axbg.transAxes, ha="center", va="center",
+    axbg = fig.add_subplot(gs[0, :]); axbg.set_axis_off(); _panel(axbg, "A", "Microbial and metabolite evidence", -0.055, 1.02)
+    axbg.text(0.065, 0.69, "Faecalibacterium", transform=axbg.transAxes, ha="center", va="center",
               fontsize=6.6, fontstyle="italic")
-    axbg.add_patch(FancyArrowPatch((0.12, 0.69), (0.285, 0.69), transform=axbg.transAxes,
+    axbg.add_patch(FancyArrowPatch((0.13, 0.69), (0.30, 0.69), transform=axbg.transAxes,
                                    arrowstyle="<->", mutation_scale=8, lw=1.0, ls="--", color=c["microbe"]))
-    axbg.text(0.202, 0.80, "Correlational human association", transform=axbg.transAxes,
+    axbg.text(0.215, 0.80, "Correlational human association", transform=axbg.transAxes,
               ha="center", va="center", fontsize=6.0)
-    axbg.text(0.36, 0.69, "5-(3,4-Dihydroxyphenyl)\npentanoic acid\nCID 49831816",
+    axbg.text(0.40, 0.69, "5-(3,4-Dihydroxyphenyl)\npentanoic acid\nCID 49831816",
               transform=axbg.transAxes, ha="center", va="center", fontsize=6.4, linespacing=1.05)
-    axbg.add_patch(FancyArrowPatch((0.445, 0.69), (0.555, 0.69), transform=axbg.transAxes,
+    axbg.add_patch(FancyArrowPatch((0.51, 0.69), (0.69, 0.69), transform=axbg.transAxes,
                                    arrowstyle="-|>", mutation_scale=8, lw=1.0, ls=":", color=c["support"]))
-    axbg.text(0.50, 0.80, "In silico target prediction", transform=axbg.transAxes,
+    axbg.text(0.60, 0.80, "In silico target prediction", transform=axbg.transAxes,
               ha="center", va="center", fontsize=6.0)
-    axbg.text(0.61, 0.69, "105 human targets", transform=axbg.transAxes,
+    axbg.text(0.79, 0.69, "105 human targets", transform=axbg.transAxes,
               ha="center", va="center", fontsize=6.6)
 
-    axbg.text(0.055, 0.25, "Catechin ring-fission\nintermediate", transform=axbg.transAxes,
+    axbg.text(0.075, 0.25, "Catechin ring-fission\nintermediate", transform=axbg.transAxes,
               ha="center", va="center", fontsize=6.0)
-    axbg.add_patch(FancyArrowPatch((0.12, 0.25), (0.225, 0.25), transform=axbg.transAxes,
+    axbg.add_patch(FancyArrowPatch((0.15, 0.25), (0.28, 0.25), transform=axbg.transAxes,
                                    arrowstyle="-|>", mutation_scale=8, lw=1.0, color=c["metabolite"]))
-    axbg.text(0.29, 0.25, "Flavonifractor plautii", transform=axbg.transAxes, ha="center", va="center",
+    axbg.text(0.37, 0.25, "Flavonifractor plautii", transform=axbg.transAxes, ha="center", va="center",
               fontsize=6.4, fontstyle="italic")
-    axbg.add_patch(FancyArrowPatch((0.365, 0.25), (0.445, 0.25), transform=axbg.transAxes,
+    axbg.add_patch(FancyArrowPatch((0.46, 0.25), (0.56, 0.25), transform=axbg.transAxes,
                                    arrowstyle="-|>", mutation_scale=8, lw=1.0, color=c["metabolite"]))
-    axbg.text(0.565, 0.25,
+    axbg.text(0.75, 0.25,
               "5-(3,4-Dihydroxyphenyl)-γ-valerolactone\nand 4-hydroxy-5-(3,4-dihydroxyphenyl)\nvaleric acid",
               transform=axbg.transAxes, ha="center", va="center", fontsize=5.7, linespacing=1.05)
-    axbg.text(0.29, 0.065, "Pure-culture metabolism", transform=axbg.transAxes,
+    axbg.text(0.37, 0.065, "Pure-culture metabolism", transform=axbg.transAxes,
               ha="center", va="center", fontsize=6.0)
-
-    acid_ax = axbg.inset_axes([0.73, 0.22, 0.11, 0.60])
-    lactone_ax = axbg.inset_axes([0.88, 0.22, 0.11, 0.60])
-    _structure(acid_ax, ASSETS / "PubChem_CID49831816.png", "Open-chain acid", "CID 49831816\nC11H14O4", 5.6)
-    _structure(lactone_ax, ASSETS / "PubChem_CID45093080_valerolactone.png", "Cyclic lactone", "CID 45093080\nC11H12O4", 5.6)
-    axbg.text(0.86, 0.54, "≠", transform=axbg.transAxes, ha="center", va="center", fontsize=14, fontweight="bold")
-    axbg.text(0.86, 0.075, "Chemically distinct", transform=axbg.transAxes, ha="center", va="center", fontsize=6.0)
 
     ax = fig.add_subplot(gs[1, :]); ax.set_axis_off(); _panel(ax, "B", "Predicted targets by method", -0.055, 1.04)
     ax.add_patch(Rectangle((0.08, 0.24), 0.20, 0.54, transform=ax.transAxes, fc=c["support"], ec="none", alpha=0.72))
@@ -1034,7 +1035,7 @@ def supplementary_figure_s1(d, c):
                         for m, co, lab in zip(method_markers, method_colors, method_order)],
                frameon=False, fontsize=5.6, ncol=2, loc="lower left", bbox_to_anchor=(0.145, 0.012))
 
-    ax = fig.add_subplot(gs[1, 1]); _panel(ax, "D", "Methanobacteria lineage (10 shared SNPs)", -0.18, 1.02)
+    ax = fig.add_subplot(gs[1, 1]); _panel(ax, "D", "Class-, order-, and family-level traits (10 shared SNPs)", -0.18, 1.02)
     lineage = d["mr10"][d["mr10"]["rank"].isin(["class", "order", "family"])].copy()
     lineage["rank"] = pd.Categorical(lineage["rank"], categories=["class", "order", "family"], ordered=True)
     lineage = lineage.sort_values("rank").reset_index(drop=True)
@@ -1078,8 +1079,8 @@ def supplementary_figure_s2(d, c):
 
     axbg = fig.add_subplot(gs[0, 1]); axbg.set_axis_off(); _panel(axbg, "B", "Open-chain acid and γ-valerolactone", -0.16, 1.02)
     left = axbg.inset_axes([0.03, 0.26, 0.44, 0.66]); right = axbg.inset_axes([0.53, 0.26, 0.44, 0.66])
-    _structure(left, ASSETS / "PubChem_CID49831816.png", "Open-chain acid", "CID 49831816 | C11H14O4")
-    _structure(right, ASSETS / "PubChem_CID45093080_valerolactone.png", "γ-Valerolactone", "CID 45093080 | C11H12O4")
+    _structure(left, ASSETS / "PubChem_CID49831816_800.png", "Open-chain acid", "CID 49831816 | C11H14O4")
+    _structure(right, ASSETS / "PubChem_CID45093080_valerolactone_800.png", "γ-Valerolactone", "CID 45093080 | C11H12O4")
     axbg.text(0.50, 0.54, "≠", transform=axbg.transAxes, ha="center", va="center", fontsize=14, fontweight="bold")
     axbg.text(0.50, 0.075, "Chemically distinct", transform=axbg.transAxes, ha="center", fontsize=6.0)
     axbg.text(0.50, 0.025, "Different molecular formulae, ring states and database identifiers",
@@ -1153,14 +1154,13 @@ def supplementary_figure_s2(d, c):
 
 def supplementary_figure_s3(d, c):
     fig = plt.figure(figsize=(FIG_WIDTH_MM * MM, 280 * MM))
-    gs = fig.add_gridspec(5, 1, height_ratios=[0.56, 1.10, 0.72, 0.72, 1.50], hspace=0.42,
+    gs = fig.add_gridspec(4, 12, height_ratios=[1.18, 0.72, 0.72, 1.50], hspace=0.46, wspace=0.85,
                           left=0.095, right=0.985, top=0.970, bottom=0.042)
     magma = d["magma"].copy()
     tested = magma[as_bool(magma.included_in_autosomal_magma)].copy()
     tested["magma_pvalue"] = pd.to_numeric(tested.magma_pvalue, errors="coerce")
 
-    axbg = fig.add_subplot(gs[0]); axbg.set_axis_off(); _panel(axbg, "A", "Q–Q plot of MAGMA gene P values", -0.085, 1.02)
-    ax = axbg.inset_axes([0.05, 0.03, 0.36, 0.85])
+    ax = fig.add_subplot(gs[0, :4]); panel_label(ax, "A", -0.18, 1.02)
     valid_magma = tested.magma_pvalue.notna()
     p = np.sort(tested.loc[valid_magma, "magma_pvalue"].to_numpy())
     n = len(p); expected = -np.log10((np.arange(1, n + 1) - 0.5) / n); observed = -np.log10(p)
@@ -1168,17 +1168,13 @@ def supplementary_figure_s3(d, c):
     limit = max(expected.max(), observed.max()) + 0.35
     ax.plot([0, limit], [0, limit], color="#777777", ls="--", lw=0.8)
     ax.set_xlim(0, limit); ax.set_ylim(0, limit); ax.set_xlabel("Expected −log10 P"); ax.set_ylabel("Observed −log10 P")
-    clean_axis(ax)
-    axbg.text(0.50, 0.69, "97 autosomal predicted targets", transform=axbg.transAxes, fontsize=7.0)
-    axbg.text(0.50, 0.47, "11 genes with nominal P < 0.05", transform=axbg.transAxes, fontsize=6.5)
-    axbg.text(0.50, 0.27, "3 genes with BH-adjusted P < 0.05", transform=axbg.transAxes, fontsize=6.5)
-    axbg.text(0.50, 0.08, "Competitive gene-set P = 0.50068", transform=axbg.transAxes, fontsize=6.5)
+    ax.set_aspect("equal", adjustable="box"); clean_axis(ax)
 
-    axbg = fig.add_subplot(gs[1]); axbg.set_axis_off(); _panel(axbg, "B", "MAGMA gene P values for 97 predicted targets", -0.085, 1.01)
+    axbg = fig.add_subplot(gs[0, 4:]); axbg.set_axis_off(); panel_label(axbg, "B", -0.08, 1.02)
     ranked = tested.sort_values(["magma_chr", "magma_start_build37"]).reset_index(drop=True)
     blocks = [ranked.iloc[i:i + 33].copy() for i in range(0, len(ranked), 33)]
     for bidx, block in enumerate(blocks):
-        inset = axbg.inset_axes([0.02 + bidx * 0.34, 0.03, 0.28, 0.89])
+        inset = axbg.inset_axes([0.01 + bidx * 0.335, 0.02, 0.305, 0.94])
         vals = -np.log10(block.magma_pvalue.to_numpy())
         y = np.arange(len(block))
         colors = np.where(block.magma_pvalue < 0.05, c["genetics"], c["neutral"])
@@ -1187,8 +1183,8 @@ def supplementary_figure_s3(d, c):
                       ec=np.where(as_bool(block.magma_bh_adjusted_p_lt_0_05), "black", colors),
                       lw=np.where(as_bool(block.magma_bh_adjusted_p_lt_0_05), 0.9, 0.2))
         inset.axvline(-math.log10(0.05), color="#777777", ls="--", lw=0.65)
-        inset.set_yticks(y, block.gene_symbol, fontsize=5.5)
-        inset.invert_yaxis(); inset.set_xlabel("−log10 P", fontsize=5.8); inset.tick_params(axis="x", labelsize=5.5)
+        inset.set_yticks(y, block.gene_symbol, fontsize=5.0)
+        inset.invert_yaxis(); inset.set_xlabel("−log10 P", fontsize=5.4); inset.tick_params(axis="x", labelsize=5.1)
         clean_axis(inset, grid=True)
 
     target_expression = d["target_expression"].copy()
@@ -1196,12 +1192,12 @@ def supplementary_figure_s3(d, c):
     target_expression["effect_et_vs_control"] = pd.to_numeric(target_expression.effect_et_vs_control, errors="coerce")
     bulk = target_expression[target_expression.dataset.str.startswith("Whole") & as_bool(target_expression.included_in_expression_analysis)].copy()
     bulk_genes = bulk.loc[bulk.pvalue < 0.05, "gene_symbol"].tolist()
-    ax = fig.add_subplot(gs[2]); panel_label(ax, "C", -0.085, 1.02)
+    ax = fig.add_subplot(gs[1, :]); panel_label(ax, "C", -0.085, 1.02)
     _volcano(ax, bulk, c, "effect_et_vs_control", "pvalue", "nominal_p_lt_0_05",
-             "Whole-cerebellum target expression", bulk_genes,
+             "", bulk_genes,
              {"NR3C1": (-4, 12), "DUSP3": (4, -2), "FYN": (4, 9), "PDE4B": (4, 13), "HTR2B": (4, -5)})
 
-    ax = fig.add_subplot(gs[3]); _panel(ax, "D", "Published and reanalyzed Purkinje-cell estimates", -0.085, 1.02)
+    ax = fig.add_subplot(gs[2, :]); panel_label(ax, "D", -0.085, 1.02)
     rec = d["published_comparison"].copy()
     x = pd.to_numeric(rec.published_log2FoldChange, errors="coerce")
     y = pd.to_numeric(rec.reanalyzed_log2FoldChange, errors="coerce")
@@ -1218,16 +1214,10 @@ def supplementary_figure_s3(d, c):
                     xytext=(dx, dy), textcoords="offset points", fontsize=5.8,
                     ha="left" if dx >= 0 else "right",
                     va="bottom" if dy >= 0 else "top")
-    not_fdr_recovered = rec.loc[ok & ~recovered, "gene_symbol"].tolist()
-    corr = np.corrcoef(x[ok], y[ok])[0, 1]
     ax.set_xlim(lo, hi); ax.set_ylim(lo, hi); ax.set_xlabel("Published log2 fold change"); ax.set_ylabel("Reanalyzed log2 fold change")
     clean_axis(ax)
-    ax.text(0.03, 0.95, f"Estimates available: {int(ok.sum())}/36 | BH-adjusted P < 0.05: {int(recovered.sum())}/36 | Pearson r = {corr:.4f}",
-            transform=ax.transAxes, va="top", fontsize=6.0)
-    ax.text(0.03, 0.84, "BH-adjusted P ≥ 0.05 in reanalysis: " + (", ".join(not_fdr_recovered) if not_fdr_recovered else "none"),
-            transform=ax.transAxes, va="top", fontsize=6.0)
 
-    axbg = fig.add_subplot(gs[4]); axbg.set_axis_off(); _panel(axbg, "E", "Cell-type expression of 105 predicted genes", -0.085, 1.01)
+    axbg = fig.add_subplot(gs[3, :]); axbg.set_axis_off(); panel_label(axbg, "E", -0.085, 1.01)
     cell = d["cell"].copy()
     genes = sorted(cell.gene_symbol.unique())
     cell_order = ["Purkinje cell", "Bergmann glial cell", "granule cell", "Golgi cell", "molecular layer interneuron",
@@ -1328,10 +1318,10 @@ REFERENCE_ROWS = [
      "Microbial MR and external microbiome studies",
      "Filled and open symbols denote the stated analysis or association; no composite score is calculated."),
     ("Figure 3", "A", "Redan et al., Journal of Agricultural and Food Chemistry (2020)", "10.1021/acs.jafc.0c05890", "Figure 1",
-     "Side-by-side chemical structures with names, formulae and identifiers",
-     "The open-chain acid CID 49831816 and phenyl-γ-valerolactone CID 45093080",
+     "Compound-specific labeling with a chemical name and registry identifier",
+     "5-(3,4-dihydroxyphenyl)pentanoic acid, CID 49831816",
      "PubChem and HMDB identifiers",
-     "The structures are chemically distinct and no direct conversion is asserted."),
+     "The side-by-side structural comparison is reserved for Supplementary Figure S2B."),
     ("Figure 3", "A", "Dong et al., Journal of the American Chemical Society (2025)", "10.1021/jacs.4c09892", "Figure 3F",
      "Organism-aware catechin-metabolism branch",
      "A separate Flavonifractor plautii pure-culture branch with catechin ring-fission products",
@@ -1423,7 +1413,7 @@ REFERENCE_ROWS = [
     ("Supplementary Figure S2", "A", "Redan et al., Journal of Agricultural and Food Chemistry (2020)", "10.1021/acs.jafc.0c05890", "Figure 1",
      "Compound identity fields adjacent to chemical nomenclature", "CID, HMDB, ChEBI, formula, molecular mass and SMILES", "PubChem, HMDB and ChEBI", "Identifiers refer to the exact open-chain acid."),
     ("Supplementary Figure S2", "B", "Redan et al., Journal of Agricultural and Food Chemistry (2020)", "10.1021/acs.jafc.0c05890", "Figure 1",
-     "Side-by-side chemical structure comparison", "Open-chain acid and phenyl-γ-valerolactone", "PubChem structures", "The compounds are not interchangeable."),
+     "Side-by-side chemical structure comparison", "Open-chain acid and phenyl-γ-valerolactone", "PubChem PUG REST structures (CIDs 49831816 and 45093080; 800 × 800 pixels)", "The compounds are not interchangeable."),
     ("Supplementary Figure S2", "C", "Daina et al., Nucleic Acids Research (2019)", "10.1093/nar/gkz382", "Figure 2",
      "Complete probability-ranked target series", "All 98 unique SwissTargetPrediction genes", "SwissTargetPrediction results", "Native probability values are retained."),
     ("Supplementary Figure S2", "D", "Irwin et al., Journal of Chemical Information and Modeling (2018)", "10.1021/acs.jcim.7b00316", "Figure 3D",
@@ -1444,7 +1434,7 @@ REFERENCE_ROWS = [
 
 
 def write_supplementary_tables(d) -> list[str]:
-    table_dir = FORMAL / "supplementary_tables"
+    table_dir = ROOT / "05_supplementary_tables"
     table_dir.mkdir(parents=True, exist_ok=True)
     chromosome_x = d["magma"][~as_bool(d["magma"].included_in_autosomal_magma)][
         ["gene_symbol", "magma_chr"]
@@ -1536,6 +1526,10 @@ def write_reference_package() -> None:
 - Mixed-direction self-contained target-set testing allows upregulated and downregulated genes to contribute to the same gene-set statistic; it does not imply a uniform direction of effect.
 - CA3 colocalization is displayed across prespecified p12 values because the posterior probability was sensitive to the shared-variant prior.
 - Reference figures contribute information organization and layout only; their numerical data and distinctive wording are not reproduced.
+- Panel geometry is reflowed after in-panel explanatory text is removed; plot areas are not left at their former reduced dimensions.
+- A chemical-structure comparison is displayed once. Main and supplementary figures may share a compound only when their analytical roles are distinct and the visual content is not duplicated.
+- Chemical structures use official source images with sufficient native pixels for at least 600 dpi at final placed size. Low-resolution previews are not enlarged as final assets; bond strokes and atom labels are checked in a 600-dpi PDF render.
+- PDF and TIFF files are regenerated as a synchronized pair after every figure revision.
 """
     (REGISTRY / "FIGURE_SPECIFICATIONS.md").write_text(specifications, encoding="utf-8")
     legends = """# Figure legends
@@ -1547,7 +1541,7 @@ The exposure GWAS comprised 211 microbial taxa and the outcome GWAS comprised 16
 **A,** IVW odds ratios and 95% confidence intervals for eight nonduplicate microbial instrument sets, with P values shown in a separate column. **B,** IVW, MR-Egger, weighted-median and weighted-mode estimates for *Faecalibacterium* and *Flavonifractor*, together with Cochran Q, MR-Egger intercept, MR-PRESSO global-test and leave-one-out summaries. **C,** SNP-exposure and SNP-outcome associations with IVW, MR-Egger, weighted-median and weighted-mode slopes for the two focal genera. **D,** Leave-one-out IVW estimates after sequential exclusion of each instrument; dashed lines denote the full IVW estimates. **E,** Sensitivity analyses and microbial evidence. Filled circles indicate that the stated criterion or evidence is present; open circles indicate a correlational gutMGene association.
 
 ## Figure 3 | Catechin-related metabolite and predicted targets
-**A,** The correlational human association between *Faecalibacterium* and 5-(3,4-dihydroxyphenyl)pentanoic acid (PubChem CID 49831816) is shown separately from pure-culture catechin metabolism by *F. plautii*. The latter produces 5-(3,4-dihydroxyphenyl)-γ-valerolactone and 4-hydroxy-5-(3,4-dihydroxyphenyl)valeric acid from a catechin ring-fission intermediate. The open-chain acid CID 49831816 and cyclic lactone CID 45093080 have different formulae and are chemically distinct. **B,** SwissTargetPrediction and SEA contributed nonoverlapping genes to the 105-gene union; observed overlap was zero. **C,** The 15 highest-ranked SwissTargetPrediction genes are ordered by predicted probability; carbonic anhydrases are highlighted. **D,** SEA z-scores are plotted against the reported Tanimoto coefficients for seven genes; each point denotes one predicted target.
+**A,** The correlational human association between *Faecalibacterium* and 5-(3,4-dihydroxyphenyl)pentanoic acid (PubChem CID 49831816) is shown separately from pure-culture catechin metabolism by *F. plautii*. The latter produces 5-(3,4-dihydroxyphenyl)-γ-valerolactone and 4-hydroxy-5-(3,4-dihydroxyphenyl)valeric acid from a catechin ring-fission intermediate. The side-by-side structural comparison of the open-chain acid and cyclic lactone is provided in Supplementary Figure S2B. **B,** SwissTargetPrediction and SEA contributed nonoverlapping genes to the 105-gene union; observed overlap was zero. **C,** The 15 highest-ranked SwissTargetPrediction genes are ordered by predicted probability; carbonic anhydrases are highlighted. **D,** SEA z-scores are plotted against the reported Tanimoto coefficients for seven genes; each point denotes one predicted target.
 
 ## Figure 4 | Gene association and cell-type regulatory evidence at the carbonic anhydrase locus
 **A,** Chromosome-ordered MAGMA gene P values for 97 autosomal predicted targets; the dashed line denotes nominal P = 0.05. **B,** Prediction, published genetics, differential-expression and cell-type annotations for 11 genes with nominal MAGMA P < 0.05. **C,** CA1, CA2 and CA3 gene bodies, MAGMA windows and leading variants at the chromosome 8 locus. CA3 and CA2 share rs955007 as the leading variant in overlapping MAGMA windows; conditional independence was not tested. **D,** CA3 cis-eQTL P values across eight cerebellar cell types. Filled points identify Granule cells and Oligodendrocytes, which met Bonferroni P < 0.05 across 18,888 variant-cell-type tests. **E,** Posterior probability of a shared causal variant (PPH4) across four p12 values. The dashed line marks the default p12 of 10−5; default PPH4 was 0.419 in Granule cells and 0.251 in Oligodendrocytes, and higher posterior probabilities at p12 = 5×10−5 were prior-sensitive.
@@ -1556,13 +1550,13 @@ The exposure GWAS comprised 211 microbial taxa and the outcome GWAS comprised 16
 **A,** Cell-type UMAP reconstructed from SCP3177 coordinates and ontology labels downloaded from the Single Cell Portal for the visualization subsample of 100,000 nuclei from the 1,004,112-nucleus atlas. The embedding is descriptive and was not recomputed. **B,** SCP3177 cell-type expression of 12 selected genes. Point size represents the fraction expressing, color represents mean expression and black outlines mark the cell type with the highest mean expression. **C,** Principal-component analysis of DESeq2 rlog-transformed GSE197345 Purkinje-cell counts using the 500 most variable genes; points represent 16 control and 24 essential-tremor samples. **D,** Row-scaled rlog expression of the eight target transcripts meeting nominal P < 0.05 in the target-restricted Purkinje-cell analysis. Samples are grouped by condition and ordered by PC1 within condition. **E,** Purkinje-cell target expression among 62 independently expression-filtered genes; eight met nominal P < 0.05. **F,** Rotation gene-set tests after independent expression filtering. Points show mroast, fry and mroast weighted by SwissTargetPrediction probability for whole cerebellum and Purkinje cells; the dashed line denotes nominal P = 0.05. The Purkinje-cell union test used the mean-square statistic and 19,999 rotations (P = 0.048); the probability-weighted sensitivity analysis yielded P = 0.059. **G,** Gene-based association, whole-cerebellum and Purkinje-cell expression, CA3 cis-eQTL evidence and highest-expression cell type for selected targets. Point size represents −log10(P), expression color represents log2 fold change and MAGMA P values are unsigned. AS, astrocyte; BG, Bergmann glia; EC, endothelial cell; GC, granule cell; GOL, Golgi cell; IN, interneuron; MG, microglia; MLI, molecular layer interneuron; OL, oligodendrocyte; OPC, oligodendrocyte precursor cell; PC, Purkinje cell; PER, pericyte; UBC, unipolar brush cell. SCP3177 expression is shown on the original summary scale and is not an essential-tremor-versus-control test.
 
 ## Supplementary Figure S1 | Mendelian randomization diagnostics
-**A,** SNP-specific Wald-ratio estimates for 9 *Faecalibacterium* and 4 *Flavonifractor* instruments. **B,** Funnel plots of Wald-ratio estimates against precision. **C,** Four MR estimators for six additional nonduplicate microbial instrument sets. **D,** Class, order and family Methanobacteria-lineage rows sharing the same 10-SNP instrument set and identical IVW estimates.
+**A,** SNP-specific Wald-ratio estimates for 9 *Faecalibacterium* and 4 *Flavonifractor* instruments. **B,** Funnel plots of Wald-ratio estimates against precision. **C,** Four MR estimators for six additional nonduplicate microbial instrument sets. **D,** Class-, order-, and family-level Methanobacteria traits sharing the same 10-SNP instrument set and identical IVW estimates.
 
 ## Supplementary Figure S2 | Compound identity and target prediction
 **A,** Names, identifiers, molecular formula, molecular mass and canonical SMILES for 5-(3,4-dihydroxyphenyl)pentanoic acid. **B,** Structural comparison of the open-chain acid and phenyl-γ-valerolactone. **C,** Complete SwissTargetPrediction ranking. **D,** Complete SEA ranking. **E,** Prediction-source membership and autosomal MAGMA coverage for all 105 predicted targets. Filled circles indicate membership or coverage; X indicates a gene not tested in MAGMA.
 
 ## Supplementary Figure S3 | Gene association and cerebellar expression
-**A,** Q-Q plot of MAGMA gene P values for 97 autosomal predicted targets. **B,** MAGMA P values for all 97 autosomal predicted targets. **C,** Whole-cerebellum target expression among 64 independently expression-filtered genes. **D,** Published and reanalyzed Purkinje-cell log2 fold changes for 36 genes. **E,** Cell-type expression of all 105 predicted genes across 13 SCP3177 cerebellar cell types. Chromosome-X targets not tested by the autosomal MAGMA analysis and gene-level association and expression annotations are provided in supplementary tables.
+**A,** Q-Q plot of MAGMA gene P values for 97 autosomal predicted targets. Eleven genes met nominal P < 0.05, three met BH-adjusted P < 0.05, and the competitive gene-set test gave P = 0.50068. **B,** MAGMA P values for all 97 autosomal predicted targets; the dashed line denotes nominal P = 0.05 and black outlines denote BH-adjusted P < 0.05. **C,** Whole-cerebellum target expression among 64 independently expression-filtered genes; five met nominal P < 0.05. **D,** Published and reanalyzed Purkinje-cell log2 fold changes for 36 genes. Estimates were available for all 36 genes, 35 met BH-adjusted P < 0.05 in the reanalysis, GNB3 did not, and Pearson r = 1.0000. **E,** Cell-type expression of all 105 predicted genes across 13 SCP3177 cerebellar cell types. Point size represents the fraction expressing, color represents mean expression and black outlines mark the cell type with the highest mean expression. Chromosome-X targets not tested by the autosomal MAGMA analysis and gene-level association and expression annotations are provided in supplementary tables.
 
 """
     (REGISTRY / "FIGURE_LEGENDS.md").write_text(legends, encoding="utf-8")
@@ -1571,14 +1565,14 @@ The exposure GWAS comprised 211 microbial taxa and the outcome GWAS comprised 16
 
 
 FIGURES = {
-        "Figure1": (figure1, FORMAL / "main_figures" / "Figure1_study_overview"),
-        "Figure2": (figure2, FORMAL / "main_figures" / "Figure2_mendelian_randomization"),
-        "Figure3": (figure3, FORMAL / "main_figures" / "Figure3_metabolite_target_prediction"),
-        "Figure4": (figure4, FORMAL / "main_figures" / "Figure4_gene_association_regulatory_evidence"),
-        "Figure5": (figure5, FORMAL / "main_figures" / "Figure5_cerebellar_target_transcription"),
-        "Supplementary_Figure_S1": (supplementary_figure_s1, FORMAL / "supplementary_figures" / "Supplementary_Figure_S1_MR_diagnostics"),
-        "Supplementary_Figure_S2": (supplementary_figure_s2, FORMAL / "supplementary_figures" / "Supplementary_Figure_S2_compound_identity_target_prediction"),
-        "Supplementary_Figure_S3": (supplementary_figure_s3, FORMAL / "supplementary_figures" / "Supplementary_Figure_S3_gene_association_cerebellar_expression"),
+    "Figure1": (figure1, FORMAL / "02_main_figures" / "Figure1_study_overview"),
+    "Figure2": (figure2, FORMAL / "02_main_figures" / "Figure2_mendelian_randomization"),
+    "Figure3": (figure3, FORMAL / "02_main_figures" / "Figure3_metabolite_target_prediction"),
+    "Figure4": (figure4, FORMAL / "02_main_figures" / "Figure4_gene_association_regulatory_evidence"),
+    "Figure5": (figure5, FORMAL / "02_main_figures" / "Figure5_cerebellar_target_transcription"),
+    "Supplementary_Figure_S1": (supplementary_figure_s1, FORMAL / "03_supplementary_figures" / "Supplementary_Figure_S1_MR_diagnostics"),
+    "Supplementary_Figure_S2": (supplementary_figure_s2, FORMAL / "03_supplementary_figures" / "Supplementary_Figure_S2_compound_identity_target_prediction"),
+    "Supplementary_Figure_S3": (supplementary_figure_s3, FORMAL / "03_supplementary_figures" / "Supplementary_Figure_S3_gene_association_cerebellar_expression"),
 }
 
 

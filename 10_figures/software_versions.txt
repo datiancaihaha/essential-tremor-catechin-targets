@@ -1,0 +1,1 @@
+See scripts/requirements.txt for Python dependencies. Final figures were exported as PDF and TIFF; only PDFs are duplicated in this code archive to limit release size.
